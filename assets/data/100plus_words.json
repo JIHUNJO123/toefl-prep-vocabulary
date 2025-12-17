@@ -1,0 +1,2302 @@
+[
+  {
+    "id": 304,
+    "word": "camp",
+    "level": "100+",
+    "partOfSpeech": "noun",
+    "definition": "A place for temporary lodging",
+    "example": "Summer camp is fun for kids.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "임시 숙소로 삼는 곳",
+        "example": "여름 캠프는 아이들에게 재미있습니다."
+      },
+      "ja": {
+        "definition": "一時的な宿泊場所",
+        "example": "サマーキャンプは子供たちにとって楽しいものです。"
+      },
+      "zh": {
+        "definition": "临时住宿的地方",
+        "example": "夏令营对孩子们来说很有趣。"
+      }
+    }
+  },
+  {
+    "id": 305,
+    "word": "campaign",
+    "level": "100+",
+    "partOfSpeech": "noun",
+    "definition": "An organized effort",
+    "example": "The marketing campaign was successful.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "조직적인 노력",
+        "example": "마케팅 캠페인은 성공적이었습니다."
+      },
+      "ja": {
+        "definition": "組織的な取り組み",
+        "example": "マーケティング キャンペーンは成功しました。"
+      },
+      "zh": {
+        "definition": "有组织的努力",
+        "example": "营销活动取得了成功。"
+      }
+    }
+  },
+  {
+    "id": 306,
+    "word": "campus",
+    "level": "100+",
+    "partOfSpeech": "noun",
+    "definition": "The grounds of a school",
+    "example": "The campus has many buildings.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "학교의 부지",
+        "example": "캠퍼스에는 건물이 많습니다."
+      },
+      "ja": {
+        "definition": "学校の敷地",
+        "example": "キャンパスにはたくさんの建物があります。"
+      },
+      "zh": {
+        "definition": "学校的场地",
+        "example": "校园有许多建筑物。"
+      }
+    }
+  },
+  {
+    "id": 307,
+    "word": "cancel",
+    "level": "100+",
+    "partOfSpeech": "verb",
+    "definition": "To decide not to proceed",
+    "example": "Cancel the appointment if necessary.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "진행하지 않기로 결정",
+        "example": "필요한 경우 약속을 취소하십시오."
+      },
+      "ja": {
+        "definition": "続行しないことを決定するには",
+        "example": "必要に応じて予約をキャンセルしてください。"
+      },
+      "zh": {
+        "definition": "决定不继续",
+        "example": "如有必要，取消预约。"
+      }
+    }
+  },
+  {
+    "id": 308,
+    "word": "cancer",
+    "level": "100+",
+    "partOfSpeech": "noun",
+    "definition": "A serious disease",
+    "example": "Research continues to find a cure for cancer.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "심각한 질병",
+        "example": "암 치료법을 찾기 위한 연구가 계속되고 있습니다."
+      },
+      "ja": {
+        "definition": "深刻な病気",
+        "example": "がんの治療法を見つける研究が続けられています。"
+      },
+      "zh": {
+        "definition": "严重的疾病",
+        "example": "研究仍在继续寻找癌症的治疗方法。"
+      }
+    }
+  },
+  {
+    "id": 309,
+    "word": "candidate",
+    "level": "100+",
+    "partOfSpeech": "noun",
+    "definition": "A person applying for a position",
+    "example": "The candidate has strong qualifications.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "직위에 지원하는 사람",
+        "example": "후보자는 강력한 자격을 갖추고 있습니다."
+      },
+      "ja": {
+        "definition": "ポジションに応募する人",
+        "example": "候補者は強力な資格を持っています。"
+      },
+      "zh": {
+        "definition": "申请职位的人",
+        "example": "该候选人具有很强的资质。"
+      }
+    }
+  },
+  {
+    "id": 310,
+    "word": "cap",
+    "level": "100+",
+    "partOfSpeech": "noun",
+    "definition": "A type of hat",
+    "example": "Wear a cap in the sun.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "모자의 일종",
+        "example": "햇빛 아래서 모자를 쓰세요."
+      },
+      "ja": {
+        "definition": "帽子の一種",
+        "example": "太陽の下では帽子をかぶりましょう。"
+      },
+      "zh": {
+        "definition": "帽子的一种",
+        "example": "在阳光下戴帽子。"
+      }
+    }
+  },
+  {
+    "id": 311,
+    "word": "capability",
+    "level": "100+",
+    "partOfSpeech": "noun",
+    "definition": "The ability to do something",
+    "example": "The system has advanced capabilities.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "뭔가를 할 수 있는 능력",
+        "example": "시스템에는 고급 기능이 있습니다."
+      },
+      "ja": {
+        "definition": "何かをする能力",
+        "example": "このシステムには高度な機能が備わっています。"
+      },
+      "zh": {
+        "definition": "做某事的能力",
+        "example": "该系统具有先进的功能。"
+      }
+    }
+  },
+  {
+    "id": 312,
+    "word": "capable",
+    "level": "100+",
+    "partOfSpeech": "adjective",
+    "definition": "Having the ability",
+    "example": "She is capable of leading the team.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "능력을 가지고",
+        "example": "그녀는 팀을 이끌 능력이 있다."
+      },
+      "ja": {
+        "definition": "能力を持っていること",
+        "example": "彼女はチームを率いることができる。"
+      },
+      "zh": {
+        "definition": "有能力",
+        "example": "她有能力带领团队。"
+      }
+    }
+  },
+  {
+    "id": 313,
+    "word": "capacity",
+    "level": "100+",
+    "partOfSpeech": "noun",
+    "definition": "The maximum amount",
+    "example": "The stadium has a capacity of 50000.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "최대 금액",
+        "example": "경기장의 수용 인원은 50,000명이다."
+      },
+      "ja": {
+        "definition": "上限金額",
+        "example": "スタジアムの収容人数は50,000人です。"
+      },
+      "zh": {
+        "definition": "最大金额",
+        "example": "体育场可容纳50000人。"
+      }
+    }
+  },
+  {
+    "id": 314,
+    "word": "capital",
+    "level": "100+",
+    "partOfSpeech": "noun",
+    "definition": "The main city of a country",
+    "example": "Seoul is the capital of South Korea.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "한 나라의 주요 도시",
+        "example": "서울은 대한민국의 수도이다."
+      },
+      "ja": {
+        "definition": "ある国の主要都市",
+        "example": "ソウルは韓国の首都です。"
+      },
+      "zh": {
+        "definition": "一个国家的主要城市",
+        "example": "首尔是韩国的首都。"
+      }
+    }
+  },
+  {
+    "id": 315,
+    "word": "captain",
+    "level": "100+",
+    "partOfSpeech": "noun",
+    "definition": "The leader of a team",
+    "example": "The captain led the ship safely.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "팀의 리더",
+        "example": "선장은 배를 무사히 인도했습니다."
+      },
+      "ja": {
+        "definition": "チームのリーダー",
+        "example": "船長は船を安全に導いた。"
+      },
+      "zh": {
+        "definition": "团队的领导者",
+        "example": "船长安全地驾驶着这艘船。"
+      }
+    }
+  },
+  {
+    "id": 316,
+    "word": "capture",
+    "level": "100+",
+    "partOfSpeech": "verb",
+    "definition": "To take into custody",
+    "example": "The police captured the criminal.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "구금하려면",
+        "example": "경찰이 범인을 체포했습니다."
+      },
+      "ja": {
+        "definition": "To take into custody",
+        "example": "The police captured the criminal."
+      },
+      "zh": {
+        "definition": "予以拘留",
+        "example": "警察抓获了罪犯。"
+      }
+    }
+  },
+  {
+    "id": 317,
+    "word": "car",
+    "level": "100+",
+    "partOfSpeech": "noun",
+    "definition": "A motor vehicle",
+    "example": "She drives to work by car.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "자동차",
+        "example": "그녀는 차로 출근합니다."
+      },
+      "ja": {
+        "definition": "自動車",
+        "example": "彼女は車で通勤しています。"
+      },
+      "zh": {
+        "definition": "机动车辆",
+        "example": "她开车去上班。"
+      }
+    }
+  },
+  {
+    "id": 318,
+    "word": "carbon",
+    "level": "100+",
+    "partOfSpeech": "noun",
+    "definition": "A chemical element",
+    "example": "Carbon dioxide affects climate.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "화학 원소",
+        "example": "이산화탄소는 기후에 영향을 미칩니다."
+      },
+      "ja": {
+        "definition": "化学元素",
+        "example": "二酸化炭素は気候に影響を与えます。"
+      },
+      "zh": {
+        "definition": "一种化学元素",
+        "example": "二氧化碳影响气候。"
+      }
+    }
+  },
+  {
+    "id": 319,
+    "word": "card",
+    "level": "100+",
+    "partOfSpeech": "noun",
+    "definition": "A piece of stiff paper",
+    "example": "Send a birthday card.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "딱딱한 종이 한 장",
+        "example": "생일 카드를 보내세요."
+      },
+      "ja": {
+        "definition": "硬い紙一枚",
+        "example": "誕生日カードを送ります。"
+      },
+      "zh": {
+        "definition": "一张硬纸",
+        "example": "寄一张生日贺卡。"
+      }
+    }
+  },
+  {
+    "id": 320,
+    "word": "care",
+    "level": "100+",
+    "partOfSpeech": "noun",
+    "definition": "The provision of what is necessary",
+    "example": "Take care of your health.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "꼭 필요한 것의 제공",
+        "example": "건강 잘 챙기세요."
+      },
+      "ja": {
+        "definition": "必要なものの提供",
+        "example": "健康に気をつけてください。"
+      },
+      "zh": {
+        "definition": "提供必要的东西",
+        "example": "照顾你的健康。"
+      }
+    }
+  },
+  {
+    "id": 321,
+    "word": "career",
+    "level": "100+",
+    "partOfSpeech": "noun",
+    "definition": "An occupation over a period",
+    "example": "She built a successful career.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "일정 기간 동안의 직업",
+        "example": "그녀는 성공적인 경력을 쌓았습니다."
+      },
+      "ja": {
+        "definition": "一定期間にわたる職業",
+        "example": "彼女は成功したキャリアを築きました。"
+      },
+      "zh": {
+        "definition": "一段时期内的职业",
+        "example": "她建立了成功的职业生涯。"
+      }
+    }
+  },
+  {
+    "id": 322,
+    "word": "careful",
+    "level": "100+",
+    "partOfSpeech": "adjective",
+    "definition": "Done with attention",
+    "example": "Be careful when crossing the street.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "관심을 갖고 완료",
+        "example": "길을 건널 때는 조심하세요."
+      },
+      "ja": {
+        "definition": "注意して完了",
+        "example": "道路を渡るときは注意してください。"
+      },
+      "zh": {
+        "definition": "用心完成",
+        "example": "过马路时要小心。"
+      }
+    }
+  },
+  {
+    "id": 323,
+    "word": "carefully",
+    "level": "100+",
+    "partOfSpeech": "adverb",
+    "definition": "With great attention",
+    "example": "Read the instructions carefully.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "큰 관심을 가지고",
+        "example": "지침을 주의 깊게 읽으십시오."
+      },
+      "ja": {
+        "definition": "細心の注意を払って",
+        "example": "指示をよく読んでください。"
+      },
+      "zh": {
+        "definition": "高度重视",
+        "example": "仔细阅读说明。"
+      }
+    }
+  },
+  {
+    "id": 324,
+    "word": "carrier",
+    "level": "100+",
+    "partOfSpeech": "noun",
+    "definition": "A person or thing that carries",
+    "example": "The mail carrier delivers packages.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "사람이나 물건을 운반하는 것",
+        "example": "우편배달원이 소포를 배달합니다."
+      },
+      "ja": {
+        "definition": "運ぶ人または物",
+        "example": "郵便配達員が荷物を配達します。"
+      },
+      "zh": {
+        "definition": "携带的人或物",
+        "example": "邮递员递送包裹。"
+      }
+    }
+  },
+  {
+    "id": 325,
+    "word": "carry",
+    "level": "100+",
+    "partOfSpeech": "verb",
+    "definition": "To support and move",
+    "example": "Carry the bags to the car.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "지지하고 움직이기 위해",
+        "example": "가방을 차에 실으세요."
+      },
+      "ja": {
+        "definition": "支え、動かすために",
+        "example": "荷物を車まで運びます。"
+      },
+      "zh": {
+        "definition": "支持和移动",
+        "example": "把包拎到车上。"
+      }
+    }
+  },
+  {
+    "id": 326,
+    "word": "case",
+    "level": "100+",
+    "partOfSpeech": "noun",
+    "definition": "An instance or example",
+    "example": "In this case, we should proceed.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "사례 또는 예시",
+        "example": "이 경우에는 계속 진행해야 합니다."
+      },
+      "ja": {
+        "definition": "インスタンスまたは例",
+        "example": "この場合、続行する必要があります。"
+      },
+      "zh": {
+        "definition": "实例或例子",
+        "example": "在这种情况下，我们应该继续。"
+      }
+    }
+  },
+  {
+    "id": 327,
+    "word": "cash",
+    "level": "100+",
+    "partOfSpeech": "noun",
+    "definition": "Money in coins or notes",
+    "example": "I prefer to pay in cash.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "동전이나 지폐로 된 돈",
+        "example": "현금으로 지불하는 것을 선호합니다."
+      },
+      "ja": {
+        "definition": "硬貨または紙幣のお金",
+        "example": "私は現金で支払うことを好みます。"
+      },
+      "zh": {
+        "definition": "硬币或纸币形式的钱",
+        "example": "我更喜欢用现金支付。"
+      }
+    }
+  },
+  {
+    "id": 328,
+    "word": "cast",
+    "level": "100+",
+    "partOfSpeech": "verb",
+    "definition": "To throw or project",
+    "example": "The actor was cast in the lead role.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "던지거나 투사하다",
+        "example": "배우가 주연으로 캐스팅됐다."
+      },
+      "ja": {
+        "definition": "投げたり投影したりする",
+        "example": "その俳優は主役にキャスティングされた。"
+      },
+      "zh": {
+        "definition": "投掷或投射",
+        "example": "该演员被选为主角。"
+      }
+    }
+  },
+  {
+    "id": 329,
+    "word": "cat",
+    "level": "100+",
+    "partOfSpeech": "noun",
+    "definition": "A small domesticated animal",
+    "example": "The cat sleeps on the couch.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "작은 가축",
+        "example": "고양이는 소파에서 잔다."
+      },
+      "ja": {
+        "definition": "小さな家畜",
+        "example": "猫はソファで寝ています。"
+      },
+      "zh": {
+        "definition": "一种小型家养动物",
+        "example": "猫睡在沙发上。"
+      }
+    }
+  },
+  {
+    "id": 330,
+    "word": "catch",
+    "level": "100+",
+    "partOfSpeech": "verb",
+    "definition": "To capture or seize",
+    "example": "Catch the ball with both hands.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "포획하거나 압수하려면",
+        "example": "양손으로 공을 잡으세요."
+      },
+      "ja": {
+        "definition": "捕まえる、または押収する",
+        "example": "両手でボールをキャッチします。"
+      },
+      "zh": {
+        "definition": "捕获或夺取",
+        "example": "用双手接住球。"
+      }
+    }
+  },
+  {
+    "id": 331,
+    "word": "category",
+    "level": "100+",
+    "partOfSpeech": "noun",
+    "definition": "A class or division",
+    "example": "Books are organized by category.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "클래스 또는 부서",
+        "example": "책은 카테고리별로 정리되어 있습니다."
+      },
+      "ja": {
+        "definition": "クラスまたは部門",
+        "example": "本はカテゴリ別に整理されています。"
+      },
+      "zh": {
+        "definition": "一个班级或部门",
+        "example": "书籍按类别组织。"
+      }
+    }
+  },
+  {
+    "id": 332,
+    "word": "cause",
+    "level": "100+",
+    "partOfSpeech": "noun",
+    "definition": "A reason for an action",
+    "example": "Identify the cause of the problem.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "행동의 이유",
+        "example": "문제의 원인을 확인하십시오."
+      },
+      "ja": {
+        "definition": "行動の理由",
+        "example": "問題の原因を特定します。"
+      },
+      "zh": {
+        "definition": "采取行动的理由",
+        "example": "找出问题的原因。"
+      }
+    }
+  },
+  {
+    "id": 333,
+    "word": "ceiling",
+    "level": "100+",
+    "partOfSpeech": "noun",
+    "definition": "The upper surface of a room",
+    "example": "Paint the ceiling white.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "방의 윗면",
+        "example": "천장을 흰색으로 칠하세요."
+      },
+      "ja": {
+        "definition": "部屋の上面",
+        "example": "天井を白くペイントします。"
+      },
+      "zh": {
+        "definition": "房间的上表面",
+        "example": "将天花板漆成白色。"
+      }
+    }
+  },
+  {
+    "id": 334,
+    "word": "celebrate",
+    "level": "100+",
+    "partOfSpeech": "verb",
+    "definition": "To observe a special occasion",
+    "example": "Celebrate your achievements.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "특별한 날을 관찰하기 위해",
+        "example": "당신의 성취를 축하하세요."
+      },
+      "ja": {
+        "definition": "特別な行事を観察するため",
+        "example": "あなたの功績を祝いましょう。"
+      },
+      "zh": {
+        "definition": "观察特殊场合",
+        "example": "庆祝你的成就。"
+      }
+    }
+  },
+  {
+    "id": 335,
+    "word": "celebration",
+    "level": "100+",
+    "partOfSpeech": "noun",
+    "definition": "The act of celebrating",
+    "example": "The celebration lasted all night.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "축하하는 행위",
+        "example": "축하 행사는 밤새도록 계속되었습니다."
+      },
+      "ja": {
+        "definition": "祝うという行為",
+        "example": "祝賀会は一晩中続きました。"
+      },
+      "zh": {
+        "definition": "庆祝的举动",
+        "example": "庆祝活动持续了一整夜。"
+      }
+    }
+  },
+  {
+    "id": 336,
+    "word": "celebrity",
+    "level": "100+",
+    "partOfSpeech": "noun",
+    "definition": "A famous person",
+    "example": "The celebrity signed autographs.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "유명한 사람",
+        "example": "연예인이 사인을 해줬습니다."
+      },
+      "ja": {
+        "definition": "有名人",
+        "example": "有名人がサインをしてくれました。"
+      },
+      "zh": {
+        "definition": "一个名人",
+        "example": "名人签名。"
+      }
+    }
+  },
+  {
+    "id": 337,
+    "word": "cell",
+    "level": "100+",
+    "partOfSpeech": "noun",
+    "definition": "The basic unit of life",
+    "example": "Cells divide to create new cells.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "생명의 기본 단위",
+        "example": "세포는 분열하여 새로운 세포를 생성합니다."
+      },
+      "ja": {
+        "definition": "生命の基本単位",
+        "example": "細胞は分裂して新しい細胞を作ります。"
+      },
+      "zh": {
+        "definition": "生命的基本单位",
+        "example": "细胞分裂产生新细胞。"
+      }
+    }
+  },
+  {
+    "id": 338,
+    "word": "center",
+    "level": "100+",
+    "partOfSpeech": "noun",
+    "definition": "The middle point",
+    "example": "The statue stands in the center.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "중간 지점",
+        "example": "중앙에 동상이 서있습니다."
+      },
+      "ja": {
+        "definition": "中間点",
+        "example": "中央に銅像が立っています。"
+      },
+      "zh": {
+        "definition": "中间点",
+        "example": "雕像矗立在中央。"
+      }
+    }
+  },
+  {
+    "id": 339,
+    "word": "central",
+    "level": "100+",
+    "partOfSpeech": "adjective",
+    "definition": "At the center",
+    "example": "The central location is convenient.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "센터에서",
+        "example": "중앙 위치가 편리합니다."
+      },
+      "ja": {
+        "definition": "中心に",
+        "example": "中心部のロケーションが便利です。"
+      },
+      "zh": {
+        "definition": "在中心",
+        "example": "中心位置很方便。"
+      }
+    }
+  },
+  {
+    "id": 340,
+    "word": "century",
+    "level": "100+",
+    "partOfSpeech": "noun",
+    "definition": "A period of 100 years",
+    "example": "Technology advanced in the 21st century.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "100년의 기간",
+        "example": "21세기에는 기술이 발전했다."
+      },
+      "ja": {
+        "definition": "100年という期間",
+        "example": "21世紀に入ってテクノロジーは進歩しました。"
+      },
+      "zh": {
+        "definition": "100年的时间",
+        "example": "21 世纪技术日新月异。"
+      }
+    }
+  },
+  {
+    "id": 341,
+    "word": "ceremony",
+    "level": "100+",
+    "partOfSpeech": "noun",
+    "definition": "A formal event",
+    "example": "The wedding ceremony was beautiful.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "공식적인 행사",
+        "example": "결혼식은 아름다웠습니다."
+      },
+      "ja": {
+        "definition": "正式なイベント",
+        "example": "結婚式は素晴らしかったです。"
+      },
+      "zh": {
+        "definition": "正式活动",
+        "example": "婚礼仪式很美好。"
+      }
+    }
+  },
+  {
+    "id": 342,
+    "word": "certain",
+    "level": "100+",
+    "partOfSpeech": "adjective",
+    "definition": "Known for sure",
+    "example": "I am certain about the facts.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "확실히 알려져 있음",
+        "example": "나는 사실에 대해 확신합니다."
+      },
+      "ja": {
+        "definition": "確かに知られている",
+        "example": "私は事実について確信しています。"
+      },
+      "zh": {
+        "definition": "众所周知",
+        "example": "我对事实很确定。"
+      }
+    }
+  },
+  {
+    "id": 343,
+    "word": "certainly",
+    "level": "100+",
+    "partOfSpeech": "adverb",
+    "definition": "Without doubt",
+    "example": "I will certainly attend.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "의심할 여지 없이",
+        "example": "꼭 참석하겠습니다."
+      },
+      "ja": {
+        "definition": "間違いなく",
+        "example": "必ず参加させていただきます。"
+      },
+      "zh": {
+        "definition": "毫无疑问",
+        "example": "我一定会参加。"
+      }
+    }
+  },
+  {
+    "id": 344,
+    "word": "chain",
+    "level": "100+",
+    "partOfSpeech": "noun",
+    "definition": "A series of connected links",
+    "example": "The dog was on a chain.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "일련의 연결된 링크",
+        "example": "그 개는 사슬에 묶여 있었습니다."
+      },
+      "ja": {
+        "definition": "つながった一連のリンク",
+        "example": "犬は鎖につながれていました。"
+      },
+      "zh": {
+        "definition": "一系列相连的链接",
+        "example": "那只狗被拴在链子上。"
+      }
+    }
+  },
+  {
+    "id": 345,
+    "word": "chair",
+    "level": "100+",
+    "partOfSpeech": "noun",
+    "definition": "A seat for one person",
+    "example": "Pull up a chair and sit down.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "1인용 좌석",
+        "example": "의자를 당겨 앉으세요."
+      },
+      "ja": {
+        "definition": "1人用の席",
+        "example": "椅子を引いて座ります。"
+      },
+      "zh": {
+        "definition": "一个人的座位",
+        "example": "拉开椅子坐下。"
+      }
+    }
+  },
+  {
+    "id": 346,
+    "word": "chairman",
+    "level": "100+",
+    "partOfSpeech": "noun",
+    "definition": "The leader of a meeting",
+    "example": "The chairman called the meeting to order.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "회의의 리더",
+        "example": "의장은 회의를 소집하여 명령을 내렸다."
+      },
+      "ja": {
+        "definition": "会議のリーダー",
+        "example": "議長は命令のために会議を招集した。"
+      },
+      "zh": {
+        "definition": "会议的领导者",
+        "example": "主席宣布召开会议。"
+      }
+    }
+  },
+  {
+    "id": 347,
+    "word": "challenge",
+    "level": "100+",
+    "partOfSpeech": "noun",
+    "definition": "A difficult task",
+    "example": "Learning a language is a challenge.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "어려운 작업",
+        "example": "언어를 배우는 것은 어려운 일입니다."
+      },
+      "ja": {
+        "definition": "難しい仕事",
+        "example": "言語を学ぶことは挑戦です。"
+      },
+      "zh": {
+        "definition": "一项艰巨的任务",
+        "example": "学习语言是一个挑战。"
+      }
+    }
+  },
+  {
+    "id": 348,
+    "word": "chamber",
+    "level": "100+",
+    "partOfSpeech": "noun",
+    "definition": "A room used for a purpose",
+    "example": "The chamber was used for meetings.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "어떤 목적으로 사용되는 방",
+        "example": "그 방은 회의를 위해 사용되었습니다."
+      },
+      "ja": {
+        "definition": "目的のために使われる部屋",
+        "example": "会議室は会議に使用されました。"
+      },
+      "zh": {
+        "definition": "用于特定目的的房间",
+        "example": "该会议厅用于开会。"
+      }
+    }
+  },
+  {
+    "id": 349,
+    "word": "champion",
+    "level": "100+",
+    "partOfSpeech": "noun",
+    "definition": "A winner of a competition",
+    "example": "The champion defended the title.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "대회 우승자",
+        "example": "챔피언이 타이틀을 방어했습니다."
+      },
+      "ja": {
+        "definition": "コンテストの優勝者",
+        "example": "チャンピオンがタイトルを防衛した。"
+      },
+      "zh": {
+        "definition": "比赛获胜者",
+        "example": "冠军卫冕。"
+      }
+    }
+  },
+  {
+    "id": 350,
+    "word": "championship",
+    "level": "100+",
+    "partOfSpeech": "noun",
+    "definition": "A competition for the title",
+    "example": "The championship game was exciting.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "타이틀 경쟁",
+        "example": "챔피언십 게임은 흥미진진했습니다."
+      },
+      "ja": {
+        "definition": "タイトルを賭けた競争",
+        "example": "優勝決定戦は盛り上がりました。"
+      },
+      "zh": {
+        "definition": "冠军争夺战",
+        "example": "冠军赛非常精彩。"
+      }
+    }
+  },
+  {
+    "id": 351,
+    "word": "chance",
+    "level": "100+",
+    "partOfSpeech": "noun",
+    "definition": "A possibility of something happening",
+    "example": "Take a chance and try.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "어떤 일이 일어날 가능성",
+        "example": "기회를 잡고 시도해 보세요."
+      },
+      "ja": {
+        "definition": "何かが起こる可能性",
+        "example": "チャンスを掴んで試してみてください。"
+      },
+      "zh": {
+        "definition": "某事发生的可能性",
+        "example": "抓住机会尝试一下。"
+      }
+    }
+  },
+  {
+    "id": 352,
+    "word": "change",
+    "level": "100+",
+    "partOfSpeech": "verb",
+    "definition": "To make different",
+    "example": "Change your approach if needed.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "다르게 만들려면",
+        "example": "필요한 경우 접근 방식을 변경하십시오."
+      },
+      "ja": {
+        "definition": "違うものにするために",
+        "example": "必要に応じてアプローチを変更します。"
+      },
+      "zh": {
+        "definition": "为了做出不同的",
+        "example": "如果需要，改变你的方法。"
+      }
+    }
+  },
+  {
+    "id": 353,
+    "word": "channel",
+    "level": "100+",
+    "partOfSpeech": "noun",
+    "definition": "A medium for communication",
+    "example": "Switch to another TV channel.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "의사소통의 매체",
+        "example": "다른 TV 채널로 전환하세요."
+      },
+      "ja": {
+        "definition": "コミュニケーションの媒体",
+        "example": "別のテレビチャンネルに切り替えてください。"
+      },
+      "zh": {
+        "definition": "沟通的媒介",
+        "example": "切换到另一个电视频道。"
+      }
+    }
+  },
+  {
+    "id": 354,
+    "word": "chapter",
+    "level": "100+",
+    "partOfSpeech": "noun",
+    "definition": "A main division of a book",
+    "example": "Read chapter five tonight.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "책의 주요 부분",
+        "example": "오늘 밤 5장을 읽어보세요."
+      },
+      "ja": {
+        "definition": "本の主要な部分",
+        "example": "今夜、第 5 章を読みましょう。"
+      },
+      "zh": {
+        "definition": "一本书的主要部分",
+        "example": "今晚读第五章。"
+      }
+    }
+  },
+  {
+    "id": 355,
+    "word": "character",
+    "level": "100+",
+    "partOfSpeech": "noun",
+    "definition": "A person in a story",
+    "example": "The main character is brave.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "이야기 속의 사람",
+        "example": "주인공은 용감합니다."
+      },
+      "ja": {
+        "definition": "物語の中の人",
+        "example": "主人公は勇敢です。"
+      },
+      "zh": {
+        "definition": "一个故事里的人",
+        "example": "主角很勇敢。"
+      }
+    }
+  },
+  {
+    "id": 356,
+    "word": "characteristic",
+    "level": "100+",
+    "partOfSpeech": "noun",
+    "definition": "A typical feature",
+    "example": "Honesty is her main characteristic.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "전형적인 특징",
+        "example": "정직은 그녀의 주요 특징입니다."
+      },
+      "ja": {
+        "definition": "典型的な特徴",
+        "example": "正直さが彼女の主な特徴です。"
+      },
+      "zh": {
+        "definition": "典型特征",
+        "example": "诚实是她的主要特点。"
+      }
+    }
+  },
+  {
+    "id": 357,
+    "word": "characterize",
+    "level": "100+",
+    "partOfSpeech": "verb",
+    "definition": "To describe the qualities of",
+    "example": "The era was characterized by change.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "자질을 설명하자면",
+        "example": "시대는 변화를 특징으로 한다."
+      },
+      "ja": {
+        "definition": "の性質を説明すると、",
+        "example": "時代は変化によって特徴づけられました。"
+      },
+      "zh": {
+        "definition": "来描述的品质",
+        "example": "这个时代的特点是变化。"
+      }
+    }
+  },
+  {
+    "id": 358,
+    "word": "charge",
+    "level": "100+",
+    "partOfSpeech": "verb",
+    "definition": "To demand payment",
+    "example": "The hotel charges extra for parking.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "지불을 요구하려면",
+        "example": "호텔에서는 주차 요금을 추가로 부과합니다."
+      },
+      "ja": {
+        "definition": "支払いを要求するには",
+        "example": "ホテルでは駐車料金が別途かかります。"
+      },
+      "zh": {
+        "definition": "要求付款",
+        "example": "酒店停车需额外收费。"
+      }
+    }
+  },
+  {
+    "id": 359,
+    "word": "charity",
+    "level": "100+",
+    "partOfSpeech": "noun",
+    "definition": "An organization helping those in need",
+    "example": "Donate to charity regularly.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "어려운 사람들을 돕는 단체",
+        "example": "정기적으로 자선단체에 기부하세요."
+      },
+      "ja": {
+        "definition": "困っている人たちを助ける団体",
+        "example": "定期的に慈善団体に寄付しましょう。"
+      },
+      "zh": {
+        "definition": "一个帮助有需要的人的组织",
+        "example": "定期向慈善机构捐款。"
+      }
+    }
+  },
+  {
+    "id": 360,
+    "word": "chart",
+    "level": "100+",
+    "partOfSpeech": "noun",
+    "definition": "A diagram showing information",
+    "example": "The chart displays sales data.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "정보를 보여주는 다이어그램",
+        "example": "차트에는 판매 데이터가 표시됩니다."
+      },
+      "ja": {
+        "definition": "情報を示す図",
+        "example": "グラフには売上データが表示されます。"
+      },
+      "zh": {
+        "definition": "显示信息的图表",
+        "example": "该图表显示销售数据。"
+      }
+    }
+  },
+  {
+    "id": 361,
+    "word": "chase",
+    "level": "100+",
+    "partOfSpeech": "verb",
+    "definition": "To pursue in order to catch",
+    "example": "The dog chased the cat.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "잡기 위해 쫓아가다",
+        "example": "개가 고양이를 쫓았습니다."
+      },
+      "ja": {
+        "definition": "捕まえるために追いかけること",
+        "example": "犬は猫を追いかけました。"
+      },
+      "zh": {
+        "definition": "为了捕捉而追赶",
+        "example": "狗追赶猫。"
+      }
+    }
+  },
+  {
+    "id": 362,
+    "word": "cheap",
+    "level": "100+",
+    "partOfSpeech": "adjective",
+    "definition": "Low in price",
+    "example": "The product is cheap but good quality.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "가격이 저렴함",
+        "example": "제품은 저렴하지만 품질이 좋습니다."
+      },
+      "ja": {
+        "definition": "価格が安い",
+        "example": "商品は安いですが品質は良いです。"
+      },
+      "zh": {
+        "definition": "价格低",
+        "example": "该产品价格便宜，但质量好。"
+      }
+    }
+  },
+  {
+    "id": 363,
+    "word": "check",
+    "level": "100+",
+    "partOfSpeech": "verb",
+    "definition": "To examine for accuracy",
+    "example": "Check your answers before submitting.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "정확성을 조사하려면",
+        "example": "제출하기 전에 답변을 확인하세요."
+      },
+      "ja": {
+        "definition": "正確さを調べるには",
+        "example": "送信する前に答えを確認してください。"
+      },
+      "zh": {
+        "definition": "检查准确性",
+        "example": "提交前检查您的答案。"
+      }
+    }
+  },
+  {
+    "id": 364,
+    "word": "chemical",
+    "level": "100+",
+    "partOfSpeech": "adjective",
+    "definition": "Relating to chemistry",
+    "example": "Chemical reactions occur constantly.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "화학 관련",
+        "example": "화학 반응은 끊임없이 발생합니다."
+      },
+      "ja": {
+        "definition": "化学関連",
+        "example": "化学反応は常に起こっています。"
+      },
+      "zh": {
+        "definition": "与化学相关",
+        "example": "化学反应不断发生。"
+      }
+    }
+  },
+  {
+    "id": 365,
+    "word": "chest",
+    "level": "100+",
+    "partOfSpeech": "noun",
+    "definition": "The front of the body",
+    "example": "He felt pain in his chest.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "본체의 전면",
+        "example": "그는 가슴에 통증을 느꼈다."
+      },
+      "ja": {
+        "definition": "体の前面",
+        "example": "彼は胸に痛みを感じた。"
+      },
+      "zh": {
+        "definition": "身体正面",
+        "example": "他感到胸口疼痛。"
+      }
+    }
+  },
+  {
+    "id": 366,
+    "word": "chicken",
+    "level": "100+",
+    "partOfSpeech": "noun",
+    "definition": "A domestic fowl",
+    "example": "We had chicken for dinner.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "가금류",
+        "example": "우리는 저녁으로 닭고기를 먹었습니다."
+      },
+      "ja": {
+        "definition": "家禽",
+        "example": "私たちは夕食に鶏肉を食べました。"
+      },
+      "zh": {
+        "definition": "一只家禽",
+        "example": "我们晚餐吃了鸡肉。"
+      }
+    }
+  },
+  {
+    "id": 367,
+    "word": "chief",
+    "level": "100+",
+    "partOfSpeech": "adjective",
+    "definition": "Most important",
+    "example": "The chief concern is safety.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "가장 중요한",
+        "example": "가장 큰 관심사는 안전입니다."
+      },
+      "ja": {
+        "definition": "最も重要な",
+        "example": "主な関心事は安全性です。"
+      },
+      "zh": {
+        "definition": "最重要的是",
+        "example": "主要问题是安全。"
+      }
+    }
+  },
+  {
+    "id": 368,
+    "word": "child",
+    "level": "100+",
+    "partOfSpeech": "noun",
+    "definition": "A young human",
+    "example": "The child played in the park.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "젊은 인간",
+        "example": "그 아이는 공원에서 놀았어요."
+      },
+      "ja": {
+        "definition": "若い人間",
+        "example": "その子供は公園で遊びました。"
+      },
+      "zh": {
+        "definition": "一个年轻的人类",
+        "example": "孩子在公园里玩耍。"
+      }
+    }
+  },
+  {
+    "id": 369,
+    "word": "childhood",
+    "level": "100+",
+    "partOfSpeech": "noun",
+    "definition": "The state of being a child",
+    "example": "Childhood memories are precious.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "어린 시절의 상태",
+        "example": "어린 시절의 추억은 소중합니다."
+      },
+      "ja": {
+        "definition": "子どもの頃の状態",
+        "example": "子供の頃の思い出は貴重です。"
+      },
+      "zh": {
+        "definition": "小时候的状态",
+        "example": "童年的记忆是珍贵的。"
+      }
+    }
+  },
+  {
+    "id": 370,
+    "word": "chip",
+    "level": "100+",
+    "partOfSpeech": "noun",
+    "definition": "A small piece",
+    "example": "The computer chip is tiny but powerful.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "작은 조각",
+        "example": "컴퓨터 칩은 작지만 강력합니다."
+      },
+      "ja": {
+        "definition": "小さな部分",
+        "example": "コンピューターのチップは小さいですが強力です。"
+      },
+      "zh": {
+        "definition": "一小块",
+        "example": "计算机芯片虽小但功能强大。"
+      }
+    }
+  },
+  {
+    "id": 371,
+    "word": "chocolate",
+    "level": "100+",
+    "partOfSpeech": "noun",
+    "definition": "A sweet food from cacao",
+    "example": "Dark chocolate is healthy in moderation.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "카카오의 달콤한 음식",
+        "example": "다크 초콜릿은 적당히 먹으면 건강에 좋다."
+      },
+      "ja": {
+        "definition": "カカオ由来の甘い食べ物",
+        "example": "ダークチョコレートは適量であれば健康的です。"
+      },
+      "zh": {
+        "definition": "来自可可的甜味食品",
+        "example": "适量的黑巧克力是健康的。"
+      }
+    }
+  },
+  {
+    "id": 372,
+    "word": "choice",
+    "level": "100+",
+    "partOfSpeech": "noun",
+    "definition": "An act of selecting",
+    "example": "Make the right choice.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "선택하는 행위",
+        "example": "올바른 선택을 하세요."
+      },
+      "ja": {
+        "definition": "選択するという行為",
+        "example": "正しい選択をしてください。"
+      },
+      "zh": {
+        "definition": "一个选择的行为",
+        "example": "做出正确的选择。"
+      }
+    }
+  },
+  {
+    "id": 373,
+    "word": "choose",
+    "level": "100+",
+    "partOfSpeech": "verb",
+    "definition": "To select from options",
+    "example": "Choose wisely.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "옵션에서 선택하려면",
+        "example": "현명하게 선택하세요."
+      },
+      "ja": {
+        "definition": "オプションから選択するには",
+        "example": "賢明に選択してください。"
+      },
+      "zh": {
+        "definition": "从选项中选择",
+        "example": "明智地选择。"
+      }
+    }
+  },
+  {
+    "id": 374,
+    "word": "church",
+    "level": "100+",
+    "partOfSpeech": "noun",
+    "definition": "A building for worship",
+    "example": "They attend church on Sundays.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "예배를 드리는 건물",
+        "example": "그들은 일요일에 교회에 참석합니다."
+      },
+      "ja": {
+        "definition": "礼拝のための建物",
+        "example": "彼らは日曜日には教会に出席します。"
+      },
+      "zh": {
+        "definition": "一座供礼拜的建筑",
+        "example": "他们周日去教堂。"
+      }
+    }
+  },
+  {
+    "id": 375,
+    "word": "circle",
+    "level": "100+",
+    "partOfSpeech": "noun",
+    "definition": "A round shape",
+    "example": "Draw a circle on the paper.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "둥근 모양",
+        "example": "종이에 원을 그립니다."
+      },
+      "ja": {
+        "definition": "丸い形",
+        "example": "紙に円を描きます。"
+      },
+      "zh": {
+        "definition": "圆形",
+        "example": "在纸上画一个圆圈。"
+      }
+    }
+  },
+  {
+    "id": 376,
+    "word": "circumstance",
+    "level": "100+",
+    "partOfSpeech": "noun",
+    "definition": "A condition connected with an event",
+    "example": "Under normal circumstances we would agree.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "이벤트와 연결된 조건",
+        "example": "일반적인 상황이라면 우리는 동의할 것입니다."
+      },
+      "ja": {
+        "definition": "イベントに関連する条件",
+        "example": "通常の状況であれば、私たちは同意するでしょう。"
+      },
+      "zh": {
+        "definition": "与事件相关的条件",
+        "example": "一般情况下我们都会同意。"
+      }
+    }
+  },
+  {
+    "id": 377,
+    "word": "citizen",
+    "level": "100+",
+    "partOfSpeech": "noun",
+    "definition": "A person who belongs to a country",
+    "example": "Every citizen has rights.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "한 나라에 속한 사람",
+        "example": "모든 시민은 권리를 가지고 있습니다."
+      },
+      "ja": {
+        "definition": "ある国に属する人",
+        "example": "すべての国民には権利があります。"
+      },
+      "zh": {
+        "definition": "一个人属于一个国家",
+        "example": "每个公民都享有权利。"
+      }
+    }
+  },
+  {
+    "id": 378,
+    "word": "city",
+    "level": "100+",
+    "partOfSpeech": "noun",
+    "definition": "A large town",
+    "example": "The city is crowded.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "큰 마을",
+        "example": "도시는 혼잡합니다."
+      },
+      "ja": {
+        "definition": "大きな町",
+        "example": "街は混雑しています。"
+      },
+      "zh": {
+        "definition": "一个大城镇",
+        "example": "城市很拥挤。"
+      }
+    }
+  },
+  {
+    "id": 379,
+    "word": "civil",
+    "level": "100+",
+    "partOfSpeech": "adjective",
+    "definition": "Relating to citizens",
+    "example": "Civil rights are protected by law.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "시민과 관련된",
+        "example": "시민의 권리는 법으로 보호됩니다."
+      },
+      "ja": {
+        "definition": "国民に関わること",
+        "example": "公民権は法律によって保護されています。"
+      },
+      "zh": {
+        "definition": "与公民相关",
+        "example": "公民权利受法律保护。"
+      }
+    }
+  },
+  {
+    "id": 380,
+    "word": "claim",
+    "level": "100+",
+    "partOfSpeech": "verb",
+    "definition": "To assert or demand",
+    "example": "He claimed his innocence.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "주장하거나 요구하다",
+        "example": "그는 자신의 결백을 주장했습니다."
+      },
+      "ja": {
+        "definition": "主張したり要求したりする",
+        "example": "彼は無実を主張した。"
+      },
+      "zh": {
+        "definition": "断言或要求",
+        "example": "他声称自己无罪。"
+      }
+    }
+  },
+  {
+    "id": 381,
+    "word": "class",
+    "level": "100+",
+    "partOfSpeech": "noun",
+    "definition": "A group of students",
+    "example": "The class starts at 9 AM.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "학생 그룹",
+        "example": "수업은 오전 9시에 시작됩니다."
+      },
+      "ja": {
+        "definition": "学生のグループ",
+        "example": "授業は午前9時に始まります。"
+      },
+      "zh": {
+        "definition": "一群学生",
+        "example": "课程上午 9 点开始。"
+      }
+    }
+  },
+  {
+    "id": 382,
+    "word": "classic",
+    "level": "100+",
+    "partOfSpeech": "adjective",
+    "definition": "Of the highest quality over time",
+    "example": "Shakespeare wrote many classic plays.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "시간이 지나도 최고 품질의",
+        "example": "셰익스피어는 많은 고전 희곡을 썼습니다."
+      },
+      "ja": {
+        "definition": "時を超えて最高の品質を",
+        "example": "シェイクスピアは多くの古典劇を書きました。"
+      },
+      "zh": {
+        "definition": "随着时间的推移保持最高品质",
+        "example": "莎士比亚创作了许多经典戏剧。"
+      }
+    }
+  },
+  {
+    "id": 383,
+    "word": "classroom",
+    "level": "100+",
+    "partOfSpeech": "noun",
+    "definition": "A room for teaching",
+    "example": "The classroom has 30 desks.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "강의를 위한 공간",
+        "example": "교실에는 책상이 30개 있습니다."
+      },
+      "ja": {
+        "definition": "教えるための部屋",
+        "example": "教室には30の机があります。"
+      },
+      "zh": {
+        "definition": "一间教学室",
+        "example": "教室有30张课桌。"
+      }
+    }
+  },
+  {
+    "id": 384,
+    "word": "clean",
+    "level": "100+",
+    "partOfSpeech": "adjective",
+    "definition": "Free from dirt",
+    "example": "Keep your room clean.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "먼지가 없음",
+        "example": "방을 깨끗하게 유지하세요."
+      },
+      "ja": {
+        "definition": "汚れがない",
+        "example": "部屋を清潔に保ちます。"
+      },
+      "zh": {
+        "definition": "无污垢",
+        "example": "保持房间清洁。"
+      }
+    }
+  },
+  {
+    "id": 385,
+    "word": "clear",
+    "level": "100+",
+    "partOfSpeech": "adjective",
+    "definition": "Easy to understand",
+    "example": "The instructions are clear.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "이해하기 쉽다",
+        "example": "지침은 명확합니다."
+      },
+      "ja": {
+        "definition": "わかりやすい",
+        "example": "指示は明確です。"
+      },
+      "zh": {
+        "definition": "易于理解",
+        "example": "说明很清楚。"
+      }
+    }
+  },
+  {
+    "id": 386,
+    "word": "clearly",
+    "level": "100+",
+    "partOfSpeech": "adverb",
+    "definition": "In a clear manner",
+    "example": "Speak clearly so everyone can hear.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "명확한 방식으로",
+        "example": "모두가 들을 수 있도록 명확하게 말하세요."
+      },
+      "ja": {
+        "definition": "明確な方法で",
+        "example": "全員に聞こえるようにはっきりと話してください。"
+      },
+      "zh": {
+        "definition": "以明确的方式",
+        "example": "说清楚，以便每个人都能听到。"
+      }
+    }
+  },
+  {
+    "id": 387,
+    "word": "client",
+    "level": "100+",
+    "partOfSpeech": "noun",
+    "definition": "A customer",
+    "example": "The lawyer met with her client.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "고객",
+        "example": "변호사는 의뢰인을 만났습니다."
+      },
+      "ja": {
+        "definition": "顧客",
+        "example": "弁護士は彼女の依頼人と会った。"
+      },
+      "zh": {
+        "definition": "一位顾客",
+        "example": "律师会见了她的委托人。"
+      }
+    }
+  },
+  {
+    "id": 388,
+    "word": "climate",
+    "level": "100+",
+    "partOfSpeech": "noun",
+    "definition": "The weather conditions of an area",
+    "example": "Climate change affects everyone.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "지역의 기상 조건",
+        "example": "기후 변화는 모든 사람에게 영향을 미칩니다."
+      },
+      "ja": {
+        "definition": "地域の気象状況",
+        "example": "気候変動はすべての人に影響を与えます。"
+      },
+      "zh": {
+        "definition": "一个地区的天气状况",
+        "example": "气候变化影响到每个人。"
+      }
+    }
+  },
+  {
+    "id": 389,
+    "word": "climb",
+    "level": "100+",
+    "partOfSpeech": "verb",
+    "definition": "To go up",
+    "example": "Climb the stairs to the second floor.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "올라가려면",
+        "example": "계단을 타고 2층으로 올라갑니다."
+      },
+      "ja": {
+        "definition": "上に行くには",
+        "example": "階段を上がって2階へ。"
+      },
+      "zh": {
+        "definition": "向上走",
+        "example": "爬楼梯到二楼。"
+      }
+    }
+  },
+  {
+    "id": 390,
+    "word": "clock",
+    "level": "100+",
+    "partOfSpeech": "noun",
+    "definition": "A device that shows time",
+    "example": "The clock struck midnight.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "시간을 보여주는 장치",
+        "example": "시계는 자정을 쳤다."
+      },
+      "ja": {
+        "definition": "時間を表示する装置",
+        "example": "時計が真夜中を指しました。"
+      },
+      "zh": {
+        "definition": "显示时间的装置",
+        "example": "午夜的钟声敲响了。"
+      }
+    }
+  },
+  {
+    "id": 391,
+    "word": "close",
+    "level": "100+",
+    "partOfSpeech": "verb",
+    "definition": "To shut",
+    "example": "Close the door quietly.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "닫으려면",
+        "example": "조용히 문을 닫으세요."
+      },
+      "ja": {
+        "definition": "閉めるには",
+        "example": "静かにドアを閉めてください。"
+      },
+      "zh": {
+        "definition": "关闭",
+        "example": "静静地关上门。"
+      }
+    }
+  },
+  {
+    "id": 392,
+    "word": "closely",
+    "level": "100+",
+    "partOfSpeech": "adverb",
+    "definition": "In a close manner",
+    "example": "Watch the process closely.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "긴밀하게",
+        "example": "과정을 자세히 관찰하세요."
+      },
+      "ja": {
+        "definition": "密接な関係で",
+        "example": "プロセスを注意深く観察してください。"
+      },
+      "zh": {
+        "definition": "以近距离的方式",
+        "example": "仔细观察这个过程。"
+      }
+    }
+  },
+  {
+    "id": 393,
+    "word": "clothes",
+    "level": "100+",
+    "partOfSpeech": "noun",
+    "definition": "Items worn on the body",
+    "example": "Wash your clothes regularly.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "몸에 착용하는 아이템",
+        "example": "옷을 정기적으로 세탁하십시오."
+      },
+      "ja": {
+        "definition": "身体に着用するアイテム",
+        "example": "衣服は定期的に洗濯してください。"
+      },
+      "zh": {
+        "definition": "穿戴在身上的物品",
+        "example": "定期洗衣服。"
+      }
+    }
+  },
+  {
+    "id": 394,
+    "word": "cloud",
+    "level": "100+",
+    "partOfSpeech": "noun",
+    "definition": "A mass of water vapor in the sky",
+    "example": "The cloud blocked the sun.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "하늘에 떠 있는 수증기 덩어리",
+        "example": "구름이 태양을 가렸습니다."
+      },
+      "ja": {
+        "definition": "空にある水蒸気の塊",
+        "example": "雲が太陽を遮った。"
+      },
+      "zh": {
+        "definition": "天空中有大量水蒸气",
+        "example": "云遮住了太阳。"
+      }
+    }
+  },
+  {
+    "id": 395,
+    "word": "club",
+    "level": "100+",
+    "partOfSpeech": "noun",
+    "definition": "An organization for people with common interests",
+    "example": "Join the book club.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "공통의 이익을 가진 사람들을 위한 조직",
+        "example": "북클럽에 가입하세요."
+      },
+      "ja": {
+        "definition": "共通の関心を持つ人々の組織",
+        "example": "読書クラブに参加してください。"
+      },
+      "zh": {
+        "definition": "一个由有共同兴趣的人组成的组织",
+        "example": "加入读书俱乐部。"
+      }
+    }
+  },
+  {
+    "id": 396,
+    "word": "coach",
+    "level": "100+",
+    "partOfSpeech": "noun",
+    "definition": "A person who trains athletes",
+    "example": "The coach motivated the team.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "운동선수를 양성하는 사람",
+        "example": "코치는 팀에 동기를 부여했다."
+      },
+      "ja": {
+        "definition": "スポーツ選手を育成する人",
+        "example": "コーチはチームにやる気を与えた。"
+      },
+      "zh": {
+        "definition": "训练运动员的人",
+        "example": "教练激励了球队。"
+      }
+    }
+  },
+  {
+    "id": 397,
+    "word": "coal",
+    "level": "100+",
+    "partOfSpeech": "noun",
+    "definition": "A black solid fuel",
+    "example": "Coal was used to heat homes.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "검은색 고체 연료",
+        "example": "석탄은 집을 데우는 데 사용되었습니다."
+      },
+      "ja": {
+        "definition": "黒い固形燃料",
+        "example": "石炭は家の暖房に使われていました。"
+      },
+      "zh": {
+        "definition": "黑色固体燃料",
+        "example": "煤炭被用来为房屋供暖。"
+      }
+    }
+  },
+  {
+    "id": 398,
+    "word": "coalition",
+    "level": "100+",
+    "partOfSpeech": "noun",
+    "definition": "An alliance for combined action",
+    "example": "The parties formed a coalition.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "결합된 행동을 위한 동맹",
+        "example": "정당은 연합을 형성했습니다."
+      },
+      "ja": {
+        "definition": "共同行動のための同盟",
+        "example": "両党は連立政権を結成した。"
+      },
+      "zh": {
+        "definition": "联合行动联盟",
+        "example": "各党派组成了联盟。"
+      }
+    }
+  },
+  {
+    "id": 399,
+    "word": "coast",
+    "level": "100+",
+    "partOfSpeech": "noun",
+    "definition": "The edge of land near the sea",
+    "example": "We drove along the coast.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "바다에 가까운 땅의 가장자리",
+        "example": "우리는 해안을 따라 운전했습니다."
+      },
+      "ja": {
+        "definition": "海の近くの土地の端",
+        "example": "私たちは海岸に沿って車で行きました。"
+      },
+      "zh": {
+        "definition": "靠近大海的陆地边缘",
+        "example": "我们沿着海岸开车。"
+      }
+    }
+  },
+  {
+    "id": 400,
+    "word": "coat",
+    "level": "100+",
+    "partOfSpeech": "noun",
+    "definition": "An outer garment",
+    "example": "Wear a coat in winter.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "겉옷",
+        "example": "겨울에는 코트를 입으세요."
+      },
+      "ja": {
+        "definition": "上着",
+        "example": "冬にはコートを着ます。"
+      },
+      "zh": {
+        "definition": "一件外衣",
+        "example": "冬天穿外套。"
+      }
+    }
+  },
+  {
+    "id": 401,
+    "word": "code",
+    "level": "100+",
+    "partOfSpeech": "noun",
+    "definition": "A system of rules or symbols",
+    "example": "The programmer wrote efficient code.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "규칙이나 상징의 체계",
+        "example": "프로그래머는 효율적인 코드를 작성했습니다."
+      },
+      "ja": {
+        "definition": "規則または記号の体系",
+        "example": "プログラマーは効率的なコードを書きました。"
+      },
+      "zh": {
+        "definition": "规则或符号系统",
+        "example": "程序员编写了高效的代码。"
+      }
+    }
+  },
+  {
+    "id": 402,
+    "word": "coffee",
+    "level": "100+",
+    "partOfSpeech": "noun",
+    "definition": "A hot beverage",
+    "example": "I drink coffee every morning.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "뜨거운 음료",
+        "example": "나는 매일 아침 커피를 마신다."
+      },
+      "ja": {
+        "definition": "温かい飲み物",
+        "example": "私は毎朝コーヒーを飲みます。"
+      },
+      "zh": {
+        "definition": "一杯热饮",
+        "example": "我每天早上都喝咖啡。"
+      }
+    }
+  },
+  {
+    "id": 403,
+    "word": "cognitive",
+    "level": "100+",
+    "partOfSpeech": "adjective",
+    "definition": "Relating to mental processes",
+    "example": "Cognitive skills improve with practice.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "정신 과정과 관련",
+        "example": "인지 능력은 연습을 통해 향상됩니다."
+      },
+      "ja": {
+        "definition": "精神的プロセスに関連する",
+        "example": "認知スキルは練習により向上します。"
+      },
+      "zh": {
+        "definition": "与心理过程有关",
+        "example": "认知技能随着练习而提高。"
+      }
+    }
+  }
+]

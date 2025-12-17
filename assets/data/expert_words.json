@@ -1,0 +1,462 @@
+[
+  {
+    "id": 41,
+    "word": "autonomous",
+    "level": "111-120",
+    "partOfSpeech": "adjective",
+    "definition": "Having the freedom to govern itself or control its own affairs",
+    "example": "The region became an autonomous territory.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "자율적인, 자치의",
+        "example": "그 지역은 자치 영토가 되었다."
+      },
+      "ja": {
+        "definition": "自律的な、自治の",
+        "example": "その地域は自治領になった。"
+      },
+      "zh": {
+        "definition": "自治的，自主的",
+        "example": "该地区成为了自治领土。"
+      }
+    }
+  },
+  {
+    "id": 42,
+    "word": "coherent",
+    "level": "111-120",
+    "partOfSpeech": "adjective",
+    "definition": "Logical and consistent; forming a unified whole",
+    "example": "The essay presents a coherent argument.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "일관성 있는, 논리적인",
+        "example": "이 에세이는 일관된 논증을 제시한다."
+      },
+      "ja": {
+        "definition": "首尾一貫した、論理的な",
+        "example": "このエッセイは一貫した議論を提示している。"
+      },
+      "zh": {
+        "definition": "连贯的，一致的",
+        "example": "这篇文章提出了一个连贯的论点。"
+      }
+    }
+  },
+  {
+    "id": 43,
+    "word": "comprehensive",
+    "level": "111-120",
+    "partOfSpeech": "adjective",
+    "definition": "Complete and including everything necessary",
+    "example": "The report provides a comprehensive analysis.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "포괄적인, 종합적인",
+        "example": "이 보고서는 포괄적인 분석을 제공한다."
+      },
+      "ja": {
+        "definition": "包括的な、総合的な",
+        "example": "この報告書は包括的な分析を提供している。"
+      },
+      "zh": {
+        "definition": "全面的，综合的",
+        "example": "该报告提供了全面的分析。"
+      }
+    }
+  },
+  {
+    "id": 44,
+    "word": "contemporary",
+    "level": "111-120",
+    "partOfSpeech": "adjective",
+    "definition": "Living or occurring at the same time; modern",
+    "example": "Contemporary art often challenges traditional forms.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "현대의, 동시대의",
+        "example": "현대 예술은 종종 전통적인 형식에 도전한다."
+      },
+      "ja": {
+        "definition": "現代の、同時代の",
+        "example": "現代アートはしばしば伝統的な形式に挑戦する。"
+      },
+      "zh": {
+        "definition": "当代的，现代的",
+        "example": "当代艺术经常挑战传统形式。"
+      }
+    }
+  },
+  {
+    "id": 45,
+    "word": "contradict",
+    "level": "111-120",
+    "partOfSpeech": "verb",
+    "definition": "To deny the truth of a statement by asserting the opposite",
+    "example": "The evidence contradicts the defendant's testimony.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "모순되다, 반박하다",
+        "example": "증거는 피고인의 증언과 모순된다."
+      },
+      "ja": {
+        "definition": "矛盾する、反論する",
+        "example": "証拠は被告の証言と矛盾している。"
+      },
+      "zh": {
+        "definition": "矛盾，反驳",
+        "example": "证据与被告的证词相矛盾。"
+      }
+    }
+  },
+  {
+    "id": 46,
+    "word": "correlation",
+    "level": "111-120",
+    "partOfSpeech": "noun",
+    "definition": "A mutual relationship between two or more things",
+    "example": "There is a strong correlation between smoking and lung cancer.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "상관관계",
+        "example": "흡연과 폐암 사이에는 강한 상관관계가 있다."
+      },
+      "ja": {
+        "definition": "相関関係",
+        "example": "喫煙と肺がんの間には強い相関関係がある。"
+      },
+      "zh": {
+        "definition": "相关性",
+        "example": "吸烟与肺癌之间存在很强的相关性。"
+      }
+    }
+  },
+  {
+    "id": 47,
+    "word": "criteria",
+    "level": "111-120",
+    "partOfSpeech": "noun",
+    "definition": "Standards by which something may be judged",
+    "example": "Applicants must meet certain criteria to qualify.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "기준 (criterion의 복수형)",
+        "example": "지원자는 자격을 얻기 위해 특정 기준을 충족해야 한다."
+      },
+      "ja": {
+        "definition": "基準（criterionの複数形）",
+        "example": "応募者は資格を得るために一定の基準を満たす必要がある。"
+      },
+      "zh": {
+        "definition": "标准（criterion的复数形式）",
+        "example": "申请者必须满足一定的标准才能获得资格。"
+      }
+    }
+  },
+  {
+    "id": 48,
+    "word": "empirical",
+    "level": "111-120",
+    "partOfSpeech": "adjective",
+    "definition": "Based on observation or experience rather than theory",
+    "example": "The study relies on empirical evidence.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "경험적인, 실증적인",
+        "example": "이 연구는 경험적 증거에 의존한다."
+      },
+      "ja": {
+        "definition": "経験的な、実証的な",
+        "example": "この研究は経験的証拠に依存している。"
+      },
+      "zh": {
+        "definition": "经验的，实证的",
+        "example": "这项研究依赖于实证证据。"
+      }
+    }
+  },
+  {
+    "id": 49,
+    "word": "hypothesis",
+    "level": "111-120",
+    "partOfSpeech": "noun",
+    "definition": "A proposed explanation made as a starting point for investigation",
+    "example": "The scientist tested her hypothesis through experiments.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "가설",
+        "example": "과학자는 실험을 통해 자신의 가설을 검증했다."
+      },
+      "ja": {
+        "definition": "仮説",
+        "example": "科学者は実験を通じて仮説を検証した。"
+      },
+      "zh": {
+        "definition": "假设，假说",
+        "example": "科学家通过实验验证了她的假设。"
+      }
+    }
+  },
+  {
+    "id": 50,
+    "word": "paradigm",
+    "level": "111-120",
+    "partOfSpeech": "noun",
+    "definition": "A typical example or pattern of something",
+    "example": "The discovery created a new paradigm in physics.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "패러다임, 전형",
+        "example": "그 발견은 물리학에서 새로운 패러다임을 만들었다."
+      },
+      "ja": {
+        "definition": "パラダイム、典型",
+        "example": "その発見は物理学に新しいパラダイムを生み出した。"
+      },
+      "zh": {
+        "definition": "范式，典范",
+        "example": "这一发现在物理学中创造了新的范式。"
+      }
+    }
+  },
+  {
+    "id": 81,
+    "word": "conceive",
+    "level": "111-120",
+    "partOfSpeech": "verb",
+    "definition": "To form or devise a plan or idea in the mind",
+    "example": "Einstein conceived the theory of relativity.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "생각해내다, 상상하다",
+        "example": "아인슈타인은 상대성 이론을 구상했다."
+      },
+      "ja": {
+        "definition": "考え出す、想像する",
+        "example": "アインシュタインは相対性理論を考案した。"
+      },
+      "zh": {
+        "definition": "构想，设想",
+        "example": "爱因斯坦构想了相对论。"
+      }
+    }
+  },
+  {
+    "id": 82,
+    "word": "concentrate",
+    "level": "111-120",
+    "partOfSpeech": "verb",
+    "definition": "To focus all one's attention on a particular activity or subject",
+    "example": "It's hard to concentrate in a noisy environment.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "집중하다",
+        "example": "시끄러운 환경에서는 집중하기 어렵다."
+      },
+      "ja": {
+        "definition": "集中する",
+        "example": "騒がしい環境では集中するのが難しい。"
+      },
+      "zh": {
+        "definition": "集中，专注",
+        "example": "在嘈杂的环境中很难集中注意力。"
+      }
+    }
+  },
+  {
+    "id": 83,
+    "word": "concept",
+    "level": "111-120",
+    "partOfSpeech": "noun",
+    "definition": "An abstract idea or general notion",
+    "example": "The concept of democracy varies across cultures.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "개념",
+        "example": "민주주의의 개념은 문화에 따라 다르다."
+      },
+      "ja": {
+        "definition": "概念",
+        "example": "民主主義の概念は文化によって異なる。"
+      },
+      "zh": {
+        "definition": "概念",
+        "example": "民主的概念因文化而异。"
+      }
+    }
+  },
+  {
+    "id": 84,
+    "word": "conclude",
+    "level": "111-120",
+    "partOfSpeech": "verb",
+    "definition": "To bring something to an end; to arrive at a judgment",
+    "example": "The study concluded that exercise improves mental health.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "결론짓다, 끝내다",
+        "example": "연구는 운동이 정신 건강을 향상시킨다고 결론지었다."
+      },
+      "ja": {
+        "definition": "結論を出す、終える",
+        "example": "研究は運動が精神的健康を改善すると結論づけた。"
+      },
+      "zh": {
+        "definition": "得出结论，结束",
+        "example": "研究得出结论，运动可以改善心理健康。"
+      }
+    }
+  },
+  {
+    "id": 85,
+    "word": "concurrent",
+    "level": "111-120",
+    "partOfSpeech": "adjective",
+    "definition": "Existing, happening, or done at the same time",
+    "example": "The concurrent sessions made it difficult to attend both lectures.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "동시에 일어나는",
+        "example": "동시에 진행되는 세션 때문에 두 강의 모두 참석하기 어려웠다."
+      },
+      "ja": {
+        "definition": "同時に起こる",
+        "example": "同時開催のセッションのため、両方の講義に出席するのが難しかった。"
+      },
+      "zh": {
+        "definition": "同时发生的",
+        "example": "同时进行的会议使得很难同时参加两场讲座。"
+      }
+    }
+  },
+  {
+    "id": 86,
+    "word": "conduct",
+    "level": "111-120",
+    "partOfSpeech": "verb",
+    "definition": "To organize and carry out; to direct or manage",
+    "example": "The scientist conducted experiments in the laboratory.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "수행하다, 실시하다",
+        "example": "과학자는 실험실에서 실험을 수행했다."
+      },
+      "ja": {
+        "definition": "行う、実施する",
+        "example": "科学者は研究室で実験を行った。"
+      },
+      "zh": {
+        "definition": "进行，实施",
+        "example": "科学家在实验室进行了实验。"
+      }
+    }
+  },
+  {
+    "id": 87,
+    "word": "confer",
+    "level": "111-120",
+    "partOfSpeech": "verb",
+    "definition": "To grant a title, degree, or right; to have discussions",
+    "example": "The university will confer honorary degrees at graduation.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "수여하다, 협의하다",
+        "example": "대학은 졸업식에서 명예 학위를 수여할 것이다."
+      },
+      "ja": {
+        "definition": "授与する、協議する",
+        "example": "大学は卒業式で名誉学位を授与する。"
+      },
+      "zh": {
+        "definition": "授予，商议",
+        "example": "大学将在毕业典礼上授予荣誉学位。"
+      }
+    }
+  },
+  {
+    "id": 88,
+    "word": "confine",
+    "level": "111-120",
+    "partOfSpeech": "verb",
+    "definition": "To keep or restrict someone or something within certain limits",
+    "example": "The discussion was confined to the main topic.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "제한하다, 가두다",
+        "example": "토론은 주요 주제로 제한되었다."
+      },
+      "ja": {
+        "definition": "制限する、閉じ込める",
+        "example": "議論は主要なトピックに限定された。"
+      },
+      "zh": {
+        "definition": "限制，局限",
+        "example": "讨论仅限于主要话题。"
+      }
+    }
+  },
+  {
+    "id": 89,
+    "word": "confirm",
+    "level": "111-120",
+    "partOfSpeech": "verb",
+    "definition": "To establish the truth or correctness of something",
+    "example": "Please confirm your attendance by Friday.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "확인하다, 확증하다",
+        "example": "금요일까지 참석 여부를 확인해 주세요."
+      },
+      "ja": {
+        "definition": "確認する、確証する",
+        "example": "金曜日までに出席を確認してください。"
+      },
+      "zh": {
+        "definition": "确认，证实",
+        "example": "请在周五前确认您的出席。"
+      }
+    }
+  },
+  {
+    "id": 90,
+    "word": "conflict",
+    "level": "111-120",
+    "partOfSpeech": "noun",
+    "definition": "A serious disagreement or argument; a prolonged armed struggle",
+    "example": "The conflict between the two nations lasted for decades.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "갈등, 충돌",
+        "example": "두 국가 간의 갈등은 수십 년 동안 지속되었다."
+      },
+      "ja": {
+        "definition": "紛争、衝突",
+        "example": "両国間の紛争は数十年続いた。"
+      },
+      "zh": {
+        "definition": "冲突，争端",
+        "example": "两国之间的冲突持续了几十年。"
+      }
+    }
+  }
+]

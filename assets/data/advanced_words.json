@@ -1,0 +1,462 @@
+[
+  {
+    "id": 31,
+    "word": "arbitrary",
+    "level": "101-110",
+    "partOfSpeech": "adjective",
+    "definition": "Based on random choice rather than reason",
+    "example": "The selection process seemed arbitrary and unfair.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "임의의, 자의적인",
+        "example": "선발 과정은 임의적이고 불공정해 보였다."
+      },
+      "ja": {
+        "definition": "任意の、恣意的な",
+        "example": "選考プロセスは恣意的で不公平に思えた。"
+      },
+      "zh": {
+        "definition": "任意的，武断的",
+        "example": "选拔过程似乎是任意且不公平的。"
+      }
+    }
+  },
+  {
+    "id": 32,
+    "word": "articulate",
+    "level": "101-110",
+    "partOfSpeech": "verb",
+    "definition": "To express an idea or feeling fluently and coherently",
+    "example": "She articulated her vision for the company clearly.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "명확하게 표현하다",
+        "example": "그녀는 회사에 대한 비전을 명확하게 표현했다."
+      },
+      "ja": {
+        "definition": "明確に述べる",
+        "example": "彼女は会社へのビジョンを明確に述べた。"
+      },
+      "zh": {
+        "definition": "清晰地表达",
+        "example": "她清晰地阐述了公司的愿景。"
+      }
+    }
+  },
+  {
+    "id": 33,
+    "word": "assert",
+    "level": "101-110",
+    "partOfSpeech": "verb",
+    "definition": "To state a fact or belief confidently and forcefully",
+    "example": "The defendant asserted his innocence.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "주장하다, 단언하다",
+        "example": "피고인은 자신의 무죄를 주장했다."
+      },
+      "ja": {
+        "definition": "主張する、断言する",
+        "example": "被告は自分の無実を主張した。"
+      },
+      "zh": {
+        "definition": "断言，主张",
+        "example": "被告坚称自己无罪。"
+      }
+    }
+  },
+  {
+    "id": 34,
+    "word": "assess",
+    "level": "101-110",
+    "partOfSpeech": "verb",
+    "definition": "To evaluate or estimate the nature, ability, or quality of",
+    "example": "Teachers assess student progress through tests.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "평가하다, 사정하다",
+        "example": "교사들은 시험을 통해 학생의 진도를 평가한다."
+      },
+      "ja": {
+        "definition": "評価する、査定する",
+        "example": "教師はテストを通じて生徒の進歩を評価する。"
+      },
+      "zh": {
+        "definition": "评估，评价",
+        "example": "教师通过测试评估学生的进步。"
+      }
+    }
+  },
+  {
+    "id": 35,
+    "word": "assign",
+    "level": "101-110",
+    "partOfSpeech": "verb",
+    "definition": "To allocate a task or duty to someone",
+    "example": "The manager assigned tasks to each team member.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "배정하다, 할당하다",
+        "example": "관리자는 각 팀원에게 업무를 배정했다."
+      },
+      "ja": {
+        "definition": "割り当てる、配属する",
+        "example": "マネージャーは各チームメンバーにタスクを割り当てた。"
+      },
+      "zh": {
+        "definition": "分配，指派",
+        "example": "经理给每个团队成员分配了任务。"
+      }
+    }
+  },
+  {
+    "id": 36,
+    "word": "assume",
+    "level": "101-110",
+    "partOfSpeech": "verb",
+    "definition": "To suppose to be the case without proof",
+    "example": "We assumed the meeting would start on time.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "가정하다, 추정하다",
+        "example": "우리는 회의가 제시간에 시작될 것이라고 가정했다."
+      },
+      "ja": {
+        "definition": "仮定する、推測する",
+        "example": "私たちは会議が時間通りに始まると仮定した。"
+      },
+      "zh": {
+        "definition": "假设，认为",
+        "example": "我们假设会议会准时开始。"
+      }
+    }
+  },
+  {
+    "id": 37,
+    "word": "assure",
+    "level": "101-110",
+    "partOfSpeech": "verb",
+    "definition": "To tell someone something positively to dispel doubt",
+    "example": "I assure you that the project will be completed on time.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "보장하다, 확신시키다",
+        "example": "프로젝트가 제시간에 완료될 것임을 보장합니다."
+      },
+      "ja": {
+        "definition": "保証する、確信させる",
+        "example": "プロジェクトは予定通り完了することを保証します。"
+      },
+      "zh": {
+        "definition": "保证，确保",
+        "example": "我向您保证项目将按时完成。"
+      }
+    }
+  },
+  {
+    "id": 38,
+    "word": "attribute",
+    "level": "101-110",
+    "partOfSpeech": "verb",
+    "definition": "To regard something as being caused by",
+    "example": "Her success can be attributed to hard work.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "~의 탓으로 돌리다, 귀속시키다",
+        "example": "그녀의 성공은 노력 덕분이라고 할 수 있다."
+      },
+      "ja": {
+        "definition": "～に帰する、原因と見なす",
+        "example": "彼女の成功は努力によるものだ。"
+      },
+      "zh": {
+        "definition": "归因于，归属",
+        "example": "她的成功可以归功于努力工作。"
+      }
+    }
+  },
+  {
+    "id": 39,
+    "word": "augment",
+    "level": "101-110",
+    "partOfSpeech": "verb",
+    "definition": "To make something greater by adding to it",
+    "example": "Technology can augment human capabilities.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "증가시키다, 늘리다",
+        "example": "기술은 인간의 능력을 증가시킬 수 있다."
+      },
+      "ja": {
+        "definition": "増大させる、増やす",
+        "example": "技術は人間の能力を増大させることができる。"
+      },
+      "zh": {
+        "definition": "增加，增强",
+        "example": "技术可以增强人类的能力。"
+      }
+    }
+  },
+  {
+    "id": 40,
+    "word": "authority",
+    "level": "101-110",
+    "partOfSpeech": "noun",
+    "definition": "The power or right to give orders or make decisions",
+    "example": "The board has the authority to approve the budget.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "권한, 권위",
+        "example": "이사회는 예산을 승인할 권한이 있다."
+      },
+      "ja": {
+        "definition": "権限、権威",
+        "example": "取締役会は予算を承認する権限を持っている。"
+      },
+      "zh": {
+        "definition": "权力，权威",
+        "example": "董事会有权批准预算。"
+      }
+    }
+  },
+  {
+    "id": 71,
+    "word": "commodity",
+    "level": "101-110",
+    "partOfSpeech": "noun",
+    "definition": "A raw material or agricultural product that can be bought and sold",
+    "example": "Oil is a valuable commodity.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "상품, 물자",
+        "example": "석유는 귀중한 상품이다."
+      },
+      "ja": {
+        "definition": "商品、物資",
+        "example": "石油は貴重な商品である。"
+      },
+      "zh": {
+        "definition": "商品，大宗商品",
+        "example": "石油是一种宝贵的商品。"
+      }
+    }
+  },
+  {
+    "id": 72,
+    "word": "communicate",
+    "level": "101-110",
+    "partOfSpeech": "verb",
+    "definition": "To share or exchange information, news, or ideas",
+    "example": "Good leaders communicate clearly with their teams.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "의사소통하다, 전달하다",
+        "example": "좋은 리더는 팀과 명확하게 의사소통한다."
+      },
+      "ja": {
+        "definition": "コミュニケーションする、伝達する",
+        "example": "優れたリーダーはチームと明確にコミュニケーションする。"
+      },
+      "zh": {
+        "definition": "交流，沟通",
+        "example": "优秀的领导者与团队进行清晰的沟通。"
+      }
+    }
+  },
+  {
+    "id": 73,
+    "word": "community",
+    "level": "101-110",
+    "partOfSpeech": "noun",
+    "definition": "A group of people living in the same place or having characteristics in common",
+    "example": "The local community organized a fundraiser.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "공동체, 지역사회",
+        "example": "지역 사회가 모금 행사를 조직했다."
+      },
+      "ja": {
+        "definition": "コミュニティ、地域社会",
+        "example": "地域社会が募金活動を組織した。"
+      },
+      "zh": {
+        "definition": "社区，共同体",
+        "example": "当地社区组织了一次募捐活动。"
+      }
+    }
+  },
+  {
+    "id": 74,
+    "word": "compatible",
+    "level": "101-110",
+    "partOfSpeech": "adjective",
+    "definition": "Able to exist or occur together without conflict",
+    "example": "The software is compatible with most operating systems.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "호환 가능한, 양립하는",
+        "example": "이 소프트웨어는 대부분의 운영 체제와 호환된다."
+      },
+      "ja": {
+        "definition": "互換性のある、両立する",
+        "example": "このソフトウェアはほとんどのオペレーティングシステムと互換性がある。"
+      },
+      "zh": {
+        "definition": "兼容的",
+        "example": "该软件与大多数操作系统兼容。"
+      }
+    }
+  },
+  {
+    "id": 75,
+    "word": "compensate",
+    "level": "101-110",
+    "partOfSpeech": "verb",
+    "definition": "To give something to make up for loss, injury, or suffering",
+    "example": "The company compensated employees for overtime work.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "보상하다, 보충하다",
+        "example": "회사는 직원들에게 초과 근무에 대해 보상했다."
+      },
+      "ja": {
+        "definition": "補償する、埋め合わせる",
+        "example": "会社は従業員に残業代を支払った。"
+      },
+      "zh": {
+        "definition": "补偿，赔偿",
+        "example": "公司为员工的加班支付了补偿。"
+      }
+    }
+  },
+  {
+    "id": 76,
+    "word": "compile",
+    "level": "101-110",
+    "partOfSpeech": "verb",
+    "definition": "To produce by assembling information collected from various sources",
+    "example": "The researcher compiled data from multiple studies.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "편집하다, 수집하다",
+        "example": "연구자는 여러 연구에서 데이터를 수집했다."
+      },
+      "ja": {
+        "definition": "編集する、収集する",
+        "example": "研究者は複数の研究からデータを収集した。"
+      },
+      "zh": {
+        "definition": "汇编，编辑",
+        "example": "研究人员从多项研究中汇编了数据。"
+      }
+    }
+  },
+  {
+    "id": 77,
+    "word": "complement",
+    "level": "101-110",
+    "partOfSpeech": "verb",
+    "definition": "To add to something in a way that enhances or improves it",
+    "example": "The red wine complements the steak perfectly.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "보완하다, 보충하다",
+        "example": "레드 와인은 스테이크와 완벽하게 어울린다."
+      },
+      "ja": {
+        "definition": "補完する、引き立てる",
+        "example": "赤ワインはステーキを完璧に引き立てる。"
+      },
+      "zh": {
+        "definition": "补充，衬托",
+        "example": "红酒与牛排完美搭配。"
+      }
+    }
+  },
+  {
+    "id": 78,
+    "word": "complex",
+    "level": "101-110",
+    "partOfSpeech": "adjective",
+    "definition": "Consisting of many different and connected parts",
+    "example": "The human brain is incredibly complex.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "복잡한",
+        "example": "인간의 뇌는 믿을 수 없을 정도로 복잡하다."
+      },
+      "ja": {
+        "definition": "複雑な",
+        "example": "人間の脳は信じられないほど複雑である。"
+      },
+      "zh": {
+        "definition": "复杂的",
+        "example": "人类大脑极其复杂。"
+      }
+    }
+  },
+  {
+    "id": 79,
+    "word": "component",
+    "level": "101-110",
+    "partOfSpeech": "noun",
+    "definition": "A part or element of a larger whole",
+    "example": "Trust is an essential component of any relationship.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "구성 요소, 부품",
+        "example": "신뢰는 모든 관계의 필수 구성 요소이다."
+      },
+      "ja": {
+        "definition": "構成要素、部品",
+        "example": "信頼はあらゆる関係の必須要素である。"
+      },
+      "zh": {
+        "definition": "组成部分，零件",
+        "example": "信任是任何关系的基本组成部分。"
+      }
+    }
+  },
+  {
+    "id": 80,
+    "word": "compound",
+    "level": "101-110",
+    "partOfSpeech": "noun",
+    "definition": "A thing that is composed of two or more elements",
+    "example": "Water is a chemical compound of hydrogen and oxygen.",
+    "category": "Science",
+    "translations": {
+      "ko": {
+        "definition": "화합물, 복합체",
+        "example": "물은 수소와 산소의 화학 화합물이다."
+      },
+      "ja": {
+        "definition": "化合物、複合体",
+        "example": "水は水素と酸素の化学化合物である。"
+      },
+      "zh": {
+        "definition": "化合物，复合物",
+        "example": "水是氢和氧的化学化合物。"
+      }
+    }
+  }
+]

@@ -1,0 +1,577 @@
+[
+  {
+    "id": 1,
+    "word": "abandon",
+    "level": "61-80",
+    "partOfSpeech": "verb",
+    "definition": "To leave behind or give up completely",
+    "example": "The crew had to abandon the sinking ship.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "버리다, 포기하다",
+        "example": "선원들은 침몰하는 배를 버려야 했다."
+      },
+      "ja": {
+        "definition": "放棄する、見捨てる",
+        "example": "乗組員は沈没する船を放棄しなければならなかった。"
+      },
+      "zh": {
+        "definition": "放弃，抛弃",
+        "example": "船员们不得不弃船。"
+      }
+    }
+  },
+  {
+    "id": 2,
+    "word": "abstract",
+    "level": "61-80",
+    "partOfSpeech": "adjective",
+    "definition": "Existing in thought or as an idea but not having physical existence",
+    "example": "Abstract concepts like justice are difficult to define.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "추상적인",
+        "example": "정의와 같은 추상적인 개념은 정의하기 어렵다."
+      },
+      "ja": {
+        "definition": "抽象的な",
+        "example": "正義のような抽象的な概念は定義が難しい。"
+      },
+      "zh": {
+        "definition": "抽象的",
+        "example": "像正义这样的抽象概念很难定义。"
+      }
+    }
+  },
+  {
+    "id": 3,
+    "word": "abundant",
+    "level": "61-80",
+    "partOfSpeech": "adjective",
+    "definition": "Existing or available in large quantities",
+    "example": "The region has abundant natural resources.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "풍부한",
+        "example": "이 지역은 풍부한 천연자원을 보유하고 있다."
+      },
+      "ja": {
+        "definition": "豊富な",
+        "example": "この地域には天然資源が豊富にある。"
+      },
+      "zh": {
+        "definition": "丰富的",
+        "example": "该地区拥有丰富的自然资源。"
+      }
+    }
+  },
+  {
+    "id": 4,
+    "word": "access",
+    "level": "61-80",
+    "partOfSpeech": "noun",
+    "definition": "The means or opportunity to approach or enter a place",
+    "example": "Students have access to the library 24 hours a day.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "접근, 이용권",
+        "example": "학생들은 하루 24시간 도서관을 이용할 수 있다."
+      },
+      "ja": {
+        "definition": "アクセス、利用権",
+        "example": "学生は24時間図書館を利用できる。"
+      },
+      "zh": {
+        "definition": "进入，使用权",
+        "example": "学生可以全天候使用图书馆。"
+      }
+    }
+  },
+  {
+    "id": 5,
+    "word": "accommodate",
+    "level": "61-80",
+    "partOfSpeech": "verb",
+    "definition": "To provide lodging or sufficient space for",
+    "example": "The hotel can accommodate up to 500 guests.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "수용하다, 편의를 제공하다",
+        "example": "이 호텔은 최대 500명의 손님을 수용할 수 있다."
+      },
+      "ja": {
+        "definition": "収容する、対応する",
+        "example": "このホテルは最大500人の宿泊客を収容できる。"
+      },
+      "zh": {
+        "definition": "容纳，提供住宿",
+        "example": "这家酒店最多可容纳500位客人。"
+      }
+    }
+  },
+  {
+    "id": 6,
+    "word": "accomplish",
+    "level": "61-80",
+    "partOfSpeech": "verb",
+    "definition": "To achieve or complete successfully",
+    "example": "She accomplished her goal of graduating with honors.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "성취하다, 달성하다",
+        "example": "그녀는 우등으로 졸업하는 목표를 달성했다."
+      },
+      "ja": {
+        "definition": "達成する、成し遂げる",
+        "example": "彼女は優等で卒業するという目標を達成した。"
+      },
+      "zh": {
+        "definition": "完成，实现",
+        "example": "她实现了以优异成绩毕业的目标。"
+      }
+    }
+  },
+  {
+    "id": 7,
+    "word": "accumulate",
+    "level": "61-80",
+    "partOfSpeech": "verb",
+    "definition": "To gather together or acquire an increasing quantity",
+    "example": "Dust tends to accumulate on unused furniture.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "축적하다, 모으다",
+        "example": "먼지는 사용하지 않는 가구에 쌓이는 경향이 있다."
+      },
+      "ja": {
+        "definition": "蓄積する、集める",
+        "example": "ほこりは使われていない家具に溜まりやすい。"
+      },
+      "zh": {
+        "definition": "积累，聚集",
+        "example": "灰尘往往会积聚在不用的家具上。"
+      }
+    }
+  },
+  {
+    "id": 8,
+    "word": "accurate",
+    "level": "61-80",
+    "partOfSpeech": "adjective",
+    "definition": "Correct in all details; exact",
+    "example": "The witness gave an accurate description of the suspect.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "정확한",
+        "example": "목격자는 용의자에 대해 정확한 설명을 했다."
+      },
+      "ja": {
+        "definition": "正確な",
+        "example": "目撃者は容疑者について正確な説明をした。"
+      },
+      "zh": {
+        "definition": "准确的",
+        "example": "目击者对嫌疑人进行了准确的描述。"
+      }
+    }
+  },
+  {
+    "id": 9,
+    "word": "achieve",
+    "level": "61-80",
+    "partOfSpeech": "verb",
+    "definition": "To successfully reach a desired objective through effort",
+    "example": "Hard work helped him achieve his dreams.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "달성하다, 이루다",
+        "example": "노력 덕분에 그는 꿈을 이룰 수 있었다."
+      },
+      "ja": {
+        "definition": "達成する、成し遂げる",
+        "example": "努力のおかげで彼は夢を実現できた。"
+      },
+      "zh": {
+        "definition": "实现，达成",
+        "example": "努力帮助他实现了梦想。"
+      }
+    }
+  },
+  {
+    "id": 10,
+    "word": "acknowledge",
+    "level": "61-80",
+    "partOfSpeech": "verb",
+    "definition": "To accept or admit the existence or truth of",
+    "example": "The company acknowledged its mistake publicly.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "인정하다, 인식하다",
+        "example": "회사는 공개적으로 실수를 인정했다."
+      },
+      "ja": {
+        "definition": "認める、承認する",
+        "example": "会社は公に過ちを認めた。"
+      },
+      "zh": {
+        "definition": "承认，认可",
+        "example": "公司公开承认了错误。"
+      }
+    }
+  },
+  {
+    "id": 11,
+    "word": "acquire",
+    "level": "61-80",
+    "partOfSpeech": "verb",
+    "definition": "To buy or obtain for oneself",
+    "example": "The museum acquired a rare painting.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "얻다, 획득하다",
+        "example": "박물관은 희귀한 그림을 구입했다."
+      },
+      "ja": {
+        "definition": "取得する、入手する",
+        "example": "美術館は珍しい絵画を入手した。"
+      },
+      "zh": {
+        "definition": "获得，取得",
+        "example": "博物馆获得了一幅稀有画作。"
+      }
+    }
+  },
+  {
+    "id": 12,
+    "word": "adapt",
+    "level": "61-80",
+    "partOfSpeech": "verb",
+    "definition": "To make suitable for a new use or purpose; modify",
+    "example": "Animals must adapt to survive in changing environments.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "적응하다, 조정하다",
+        "example": "동물들은 변화하는 환경에서 생존하기 위해 적응해야 한다."
+      },
+      "ja": {
+        "definition": "適応する、順応する",
+        "example": "動物は変化する環境で生き残るために適応しなければならない。"
+      },
+      "zh": {
+        "definition": "适应，调整",
+        "example": "动物必须适应才能在不断变化的环境中生存。"
+      }
+    }
+  },
+  {
+    "id": 13,
+    "word": "adequate",
+    "level": "61-80",
+    "partOfSpeech": "adjective",
+    "definition": "Sufficient for a specific need or requirement",
+    "example": "The student's preparation was adequate for the exam.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "충분한, 적절한",
+        "example": "학생의 준비는 시험에 충분했다."
+      },
+      "ja": {
+        "definition": "十分な、適切な",
+        "example": "学生の準備は試験に十分だった。"
+      },
+      "zh": {
+        "definition": "足够的，适当的",
+        "example": "学生的准备对考试来说是足够的。"
+      }
+    }
+  },
+  {
+    "id": 14,
+    "word": "adjust",
+    "level": "61-80",
+    "partOfSpeech": "verb",
+    "definition": "To alter or move something slightly to achieve a desired result",
+    "example": "Please adjust the volume on the television.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "조정하다, 맞추다",
+        "example": "텔레비전 볼륨을 조정해 주세요."
+      },
+      "ja": {
+        "definition": "調整する、合わせる",
+        "example": "テレビの音量を調整してください。"
+      },
+      "zh": {
+        "definition": "调整，调节",
+        "example": "请调整电视的音量。"
+      }
+    }
+  },
+  {
+    "id": 15,
+    "word": "administer",
+    "level": "61-80",
+    "partOfSpeech": "verb",
+    "definition": "To manage or be responsible for the running of",
+    "example": "The department administers all educational programs.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "관리하다, 집행하다",
+        "example": "그 부서는 모든 교육 프로그램을 관리한다."
+      },
+      "ja": {
+        "definition": "管理する、運営する",
+        "example": "その部門はすべての教育プログラムを管理している。"
+      },
+      "zh": {
+        "definition": "管理，执行",
+        "example": "该部门管理所有教育项目。"
+      }
+    }
+  },
+  {
+    "id": 51,
+    "word": "beneficial",
+    "level": "61-80",
+    "partOfSpeech": "adjective",
+    "definition": "Favorable or advantageous; resulting in good",
+    "example": "Exercise is beneficial to your health.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "유익한, 이로운",
+        "example": "운동은 건강에 유익하다."
+      },
+      "ja": {
+        "definition": "有益な、有利な",
+        "example": "運動は健康に有益である。"
+      },
+      "zh": {
+        "definition": "有益的",
+        "example": "运动对健康有益。"
+      }
+    }
+  },
+  {
+    "id": 52,
+    "word": "bias",
+    "level": "61-80",
+    "partOfSpeech": "noun",
+    "definition": "Prejudice in favor of or against something",
+    "example": "The study was criticized for researcher bias.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "편견, 편향",
+        "example": "그 연구는 연구자 편향으로 비판받았다."
+      },
+      "ja": {
+        "definition": "偏見、バイアス",
+        "example": "その研究は研究者バイアスで批判された。"
+      },
+      "zh": {
+        "definition": "偏见，偏差",
+        "example": "该研究因研究者偏见而受到批评。"
+      }
+    }
+  },
+  {
+    "id": 53,
+    "word": "capable",
+    "level": "61-80",
+    "partOfSpeech": "adjective",
+    "definition": "Having the ability or quality necessary to do something",
+    "example": "She is capable of handling difficult situations.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "능력 있는, ~할 수 있는",
+        "example": "그녀는 어려운 상황을 처리할 능력이 있다."
+      },
+      "ja": {
+        "definition": "有能な、～できる",
+        "example": "彼女は困難な状況に対処する能力がある。"
+      },
+      "zh": {
+        "definition": "有能力的",
+        "example": "她有能力处理困难情况。"
+      }
+    }
+  },
+  {
+    "id": 54,
+    "word": "category",
+    "level": "61-80",
+    "partOfSpeech": "noun",
+    "definition": "A class or division of things having shared characteristics",
+    "example": "Books are organized by category in the library.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "범주, 분류",
+        "example": "도서관에서 책은 범주별로 정리되어 있다."
+      },
+      "ja": {
+        "definition": "カテゴリー、分類",
+        "example": "図書館では本がカテゴリー別に整理されている。"
+      },
+      "zh": {
+        "definition": "类别，分类",
+        "example": "图书馆里的书按类别整理。"
+      }
+    }
+  },
+  {
+    "id": 55,
+    "word": "challenge",
+    "level": "61-80",
+    "partOfSpeech": "noun",
+    "definition": "A task or situation that tests someone's abilities",
+    "example": "Learning a new language is a challenge.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "도전, 과제",
+        "example": "새로운 언어를 배우는 것은 도전이다."
+      },
+      "ja": {
+        "definition": "挑戦、課題",
+        "example": "新しい言語を学ぶことは挑戦である。"
+      },
+      "zh": {
+        "definition": "挑战",
+        "example": "学习新语言是一个挑战。"
+      }
+    }
+  },
+  {
+    "id": 56,
+    "word": "channel",
+    "level": "61-80",
+    "partOfSpeech": "noun",
+    "definition": "A means of communication or expression",
+    "example": "Social media is an important marketing channel.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "채널, 경로",
+        "example": "소셜 미디어는 중요한 마케팅 채널이다."
+      },
+      "ja": {
+        "definition": "チャンネル、経路",
+        "example": "ソーシャルメディアは重要なマーケティングチャンネルである。"
+      },
+      "zh": {
+        "definition": "渠道",
+        "example": "社交媒体是重要的营销渠道。"
+      }
+    }
+  },
+  {
+    "id": 57,
+    "word": "chemical",
+    "level": "61-80",
+    "partOfSpeech": "adjective",
+    "definition": "Relating to chemistry or the interactions of substances",
+    "example": "The chemical reaction produced heat.",
+    "category": "Science",
+    "translations": {
+      "ko": {
+        "definition": "화학적인",
+        "example": "화학 반응이 열을 발생시켰다."
+      },
+      "ja": {
+        "definition": "化学的な",
+        "example": "化学反応が熱を発生させた。"
+      },
+      "zh": {
+        "definition": "化学的",
+        "example": "化学反应产生了热量。"
+      }
+    }
+  },
+  {
+    "id": 58,
+    "word": "circumstance",
+    "level": "61-80",
+    "partOfSpeech": "noun",
+    "definition": "A fact or condition connected with an event or action",
+    "example": "Under normal circumstances, we would agree.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "상황, 환경",
+        "example": "정상적인 상황에서는 우리가 동의했을 것이다."
+      },
+      "ja": {
+        "definition": "状況、環境",
+        "example": "通常の状況であれば、我々は同意しただろう。"
+      },
+      "zh": {
+        "definition": "情况，环境",
+        "example": "在正常情况下，我们会同意的。"
+      }
+    }
+  },
+  {
+    "id": 59,
+    "word": "civil",
+    "level": "61-80",
+    "partOfSpeech": "adjective",
+    "definition": "Relating to ordinary citizens and their concerns",
+    "example": "Civil rights are protected by law.",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "시민의, 민간의",
+        "example": "시민권은 법으로 보호된다."
+      },
+      "ja": {
+        "definition": "市民の、民間の",
+        "example": "公民権は法律で保護されている。"
+      },
+      "zh": {
+        "definition": "公民的，民间的",
+        "example": "公民权利受法律保护。"
+      }
+    }
+  },
+  {
+    "id": 60,
+    "word": "clarify",
+    "level": "61-80",
+    "partOfSpeech": "verb",
+    "definition": "To make a statement less confusing and more understandable",
+    "example": "Could you clarify what you mean?",
+    "category": "Academic",
+    "translations": {
+      "ko": {
+        "definition": "명확히 하다, 설명하다",
+        "example": "무슨 뜻인지 명확히 해 주시겠어요?"
+      },
+      "ja": {
+        "definition": "明確にする、説明する",
+        "example": "どういう意味か明確にしていただけますか？"
+      },
+      "zh": {
+        "definition": "澄清，阐明",
+        "example": "你能澄清一下你的意思吗？"
+      }
+    }
+  }
+]
