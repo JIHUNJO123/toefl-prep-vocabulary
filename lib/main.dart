@@ -95,8 +95,12 @@ class TOEFLVocabApp extends StatelessWidget {
         Locale('ja'),
         Locale('zh'),
         Locale('es'),
-        Locale('fr'),
+        Locale('pt'),
         Locale('de'),
+        Locale('fr'),
+        Locale('vi'),
+        Locale('ar'),
+        Locale('id'),
       ],
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(
