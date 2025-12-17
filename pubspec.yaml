@@ -1,8 +1,8 @@
-﻿name: toefl_vocab_app
+name: toefl_vocab_app
 description: "TOEFL Prep: Essential Vocabulary - Learn academic words for TOEFL preparation"
 publish_to: 'none'
 
-version: 1.0.0+1
+version: 1.0.0+3
 
 environment:
   sdk: ^3.7.0
