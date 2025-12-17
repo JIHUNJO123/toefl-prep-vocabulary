@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 import 'package:toefl_vocab_app/l10n/generated/app_localizations.dart';
 import 'package:google_mobile_ads/google_mobile_ads.dart';
 import '../db/database_helper.dart';
@@ -443,25 +443,25 @@ class _HomeScreenState extends State<HomeScreen> {
     // TOEFL Band 기준 레벨 (새 체계)
     final levels = [
       {
-        'level': '61-80',
+        'level': '0-60',
         'name': l10n.beginner,
         'desc': l10n.beginnerDesc,
         'color': Colors.green,
       },
       {
-        'level': '81-100',
+        'level': '60-80',
         'name': l10n.intermediate,
         'desc': l10n.intermediateDesc,
         'color': Colors.blue,
       },
       {
-        'level': '101-110',
+        'level': '80-100',
         'name': l10n.advanced,
         'desc': l10n.advancedDesc,
         'color': Colors.orange,
       },
       {
-        'level': '111-120',
+        'level': '100+',
         'name': l10n.expert,
         'desc': l10n.expertDesc,
         'color': Colors.red,
@@ -548,3 +548,4 @@ class _HomeScreenState extends State<HomeScreen> {
     );
   }
 }
+
