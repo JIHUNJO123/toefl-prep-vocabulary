@@ -39,10 +39,10 @@ class AppLocalizationsKo extends AppLocalizations {
   String get cardLearning => '카드 학습';
 
   @override
-  String get quiz => '놀리다';
+  String get quiz => '퀴즈';
 
   @override
-  String get testYourself => '스스로 테스트해 보세요';
+  String get testYourself => '실력 테스트';
 
   @override
   String get settings => '설정';
@@ -54,10 +54,10 @@ class AppLocalizationsKo extends AppLocalizations {
   String get displayLanguage => '표시 언어';
 
   @override
-  String get selectLanguage => '언어를 선택하세요';
+  String get selectLanguage => '언어 선택';
 
   @override
-  String get display => '표시하다';
+  String get display => '디스플레이';
 
   @override
   String get darkMode => '다크 모드';
@@ -81,10 +81,10 @@ class AppLocalizationsKo extends AppLocalizations {
   String get adsRemoved => '광고 제거됨';
 
   @override
-  String get thankYou => '응원해주셔서 감사합니다!';
+  String get thankYou => '구매해 주셔서 감사합니다!';
 
   @override
-  String get buy => '구입하다';
+  String get buy => '구매';
 
   @override
   String get restorePurchase => '구매 복원';
@@ -108,13 +108,13 @@ class AppLocalizationsKo extends AppLocalizations {
   String get version => '버전';
 
   @override
-  String get disclaimer => '부인 성명';
+  String get disclaimer => '면책 조항';
 
   @override
-  String get disclaimerText => '이 앱은 독립적인 TOEFL 준비 도구이며, ETS(교육평가원)와 제휴, 보증 또는 승인 관계가 없습니다.';
+  String get disclaimerText => '이 앱은 독립적인 TOEFL 준비 도구이며, ETS(Educational Testing Service)와 제휴, 보증 또는 승인 관계가 없습니다.';
 
   @override
-  String get privacyPolicy => '개인정보 보호정책';
+  String get privacyPolicy => '개인정보처리방침';
 
   @override
   String get cannotLoadWords => '단어를 불러올 수 없습니다';
@@ -138,7 +138,7 @@ class AppLocalizationsKo extends AppLocalizations {
   String get definition => '정의';
 
   @override
-  String get example => '예';
+  String get example => '예문';
 
   @override
   String levelWords(String level) {
@@ -146,7 +146,7 @@ class AppLocalizationsKo extends AppLocalizations {
   }
 
   @override
-  String get beginner => '초보자 (0-60세)';
+  String get beginner => '초급 (0-60)';
 
   @override
   String get beginnerDesc => '기본 어휘 - 800단어';
@@ -173,19 +173,19 @@ class AppLocalizationsKo extends AppLocalizations {
   String get alphabetical => '알파벳순';
 
   @override
-  String get random => '무작위의';
+  String get random => '랜덤';
 
   @override
-  String get tapToFlip => '탭하여 뒤집으세요';
+  String get tapToFlip => '탭하여 뒤집기';
 
   @override
-  String get previous => '이전의';
+  String get previous => '이전';
 
   @override
   String get next => '다음';
 
   @override
-  String get question => '질문';
+  String get question => '문제';
 
   @override
   String get score => '점수';
@@ -194,10 +194,10 @@ class AppLocalizationsKo extends AppLocalizations {
   String get quizComplete => '퀴즈 완료!';
 
   @override
-  String get finish => '마치다';
+  String get finish => '완료';
 
   @override
-  String get tryAgain => '다시 시도하세요';
+  String get tryAgain => '다시 풀기';
 
   @override
   String get showResult => '결과 보기';

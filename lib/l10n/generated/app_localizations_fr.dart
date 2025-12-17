@@ -194,7 +194,7 @@ class AppLocalizationsFr extends AppLocalizations {
   String get quizComplete => 'Quiz terminé !';
 
   @override
-  String get finish => 'Finition';
+  String get finish => 'Terminer';
 
   @override
   String get tryAgain => 'Essayer à nouveau';

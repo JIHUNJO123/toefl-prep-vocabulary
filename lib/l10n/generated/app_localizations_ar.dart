@@ -39,7 +39,7 @@ class AppLocalizationsAr extends AppLocalizations {
   String get cardLearning => 'التعلم بالبطاقات';
 
   @override
-  String get quiz => 'لغز';
+  String get quiz => 'اختبار';
 
   @override
   String get testYourself => 'اختبر نفسك';
@@ -84,7 +84,7 @@ class AppLocalizationsAr extends AppLocalizations {
   String get thankYou => 'شكراً لدعمكم!';
 
   @override
-  String get buy => 'يشتري';
+  String get buy => 'شراء';
 
   @override
   String get restorePurchase => 'استعادة عملية الشراء';
@@ -194,7 +194,7 @@ class AppLocalizationsAr extends AppLocalizations {
   String get quizComplete => 'اكتمل الاختبار!';
 
   @override
-  String get finish => 'ينهي';
+  String get finish => 'إنهاء';
 
   @override
   String get tryAgain => 'حاول ثانية';

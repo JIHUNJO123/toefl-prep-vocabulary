@@ -12,7 +12,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get appTitle => '托福备考词汇';
 
   @override
-  String get todayWord => '今日经文';
+  String get todayWord => '今日单词';
 
   @override
   String get learning => '学习';
@@ -57,7 +57,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get selectLanguage => '选择语言';
 
   @override
-  String get display => '展示';
+  String get display => '显示';
 
   @override
   String get darkMode => '深色模式';
@@ -84,7 +84,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get thankYou => '感谢您的支持！';
 
   @override
-  String get buy => '买';
+  String get buy => '购买';
 
   @override
   String get restorePurchase => '恢复购买';
@@ -132,7 +132,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get removedFromFavorites => '已从收藏夹中移除';
 
   @override
-  String get wordDetail => '文字细节';
+  String get wordDetail => '单词详情';
 
   @override
   String get definition => '定义';
@@ -173,13 +173,13 @@ class AppLocalizationsZh extends AppLocalizations {
   String get alphabetical => '按字母顺序排列';
 
   @override
-  String get random => '随机的';
+  String get random => '随机';
 
   @override
   String get tapToFlip => '点击翻转';
 
   @override
-  String get previous => '以前的';
+  String get previous => '上一个';
 
   @override
   String get next => '下一个';

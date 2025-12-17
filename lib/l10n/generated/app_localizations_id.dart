@@ -12,10 +12,10 @@ class AppLocalizationsId extends AppLocalizations {
   String get appTitle => 'Kosakata Persiapan TOEFL';
 
   @override
-  String get todayWord => 'Firman Hari Ini';
+  String get todayWord => 'Kata Hari Ini';
 
   @override
-  String get learning => 'Sedang belajar';
+  String get learning => 'Belajar';
 
   @override
   String get levelLearning => 'Pembelajaran Tingkat Skor';
@@ -57,7 +57,7 @@ class AppLocalizationsId extends AppLocalizations {
   String get selectLanguage => 'Pilih Bahasa';
 
   @override
-  String get display => 'Menampilkan';
+  String get display => 'Tampilan';
 
   @override
   String get darkMode => 'Mode Gelap';
@@ -84,7 +84,7 @@ class AppLocalizationsId extends AppLocalizations {
   String get thankYou => 'Terima kasih atas dukungan Anda!';
 
   @override
-  String get buy => 'Membeli';
+  String get buy => 'Beli';
 
   @override
   String get restorePurchase => 'Pulihkan Pembelian';
@@ -194,7 +194,7 @@ class AppLocalizationsId extends AppLocalizations {
   String get quizComplete => 'Kuis Selesai!';
 
   @override
-  String get finish => 'Menyelesaikan';
+  String get finish => 'Selesai';
 
   @override
   String get tryAgain => 'Coba Lagi';

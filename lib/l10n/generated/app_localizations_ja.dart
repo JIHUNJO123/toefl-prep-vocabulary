@@ -12,7 +12,7 @@ class AppLocalizationsJa extends AppLocalizations {
   String get appTitle => 'TOEFL対策語彙';
 
   @override
-  String get todayWord => '今日の言葉';
+  String get todayWord => '今日の単語';
 
   @override
   String get learning => '学ぶ';
@@ -57,7 +57,7 @@ class AppLocalizationsJa extends AppLocalizations {
   String get selectLanguage => '言語を選択';
 
   @override
-  String get display => '画面';
+  String get display => '表示';
 
   @override
   String get darkMode => 'ダークモード';
@@ -84,7 +84,7 @@ class AppLocalizationsJa extends AppLocalizations {
   String get thankYou => 'ご支援ありがとうございます！';
 
   @override
-  String get buy => '買う';
+  String get buy => '購入';
 
   @override
   String get restorePurchase => '購入を復元';
@@ -179,7 +179,7 @@ class AppLocalizationsJa extends AppLocalizations {
   String get tapToFlip => 'タップしてめくる';
 
   @override
-  String get previous => '前の';
+  String get previous => '前へ';
 
   @override
   String get next => '次';
@@ -194,7 +194,7 @@ class AppLocalizationsJa extends AppLocalizations {
   String get quizComplete => 'クイズ完了！';
 
   @override
-  String get finish => '仕上げる';
+  String get finish => '完了';
 
   @override
   String get tryAgain => 'もう一度やり直してください';
