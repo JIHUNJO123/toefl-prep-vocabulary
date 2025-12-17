@@ -263,10 +263,13 @@ class DatabaseHelper {
     try {
       final List<Word> allWords = [];
       // 踰덉뿭???덈뒗 ?뚯씪??癒쇱? 濡쒕뱶! (band*.json??踰덉뿭 ?곗씠???덉쓬)
-      // words.json만 사용 - 모든 7426 단어가 올바른 레벨로 포함됨
-      // words.json only - all 7426 words with correct levels
       final jsonFiles = [
-        'assets/data/words.json',
+        'assets/data/beginner_words.json',
+        'assets/data/intermediate_words.json',
+        'assets/data/advanced_words.json',
+        'assets/data/expert_words.json',
+        'assets/data/words_batch2.json',
+        'assets/data/words.json', // 踰덉뿭 ?녿뒗 ?뚯씪? 留덉?留됱뿉
       ];
 
       for (final file in jsonFiles) {
@@ -438,6 +441,5 @@ class DatabaseHelper {
     db.close();
   }
 }
-
 
 
