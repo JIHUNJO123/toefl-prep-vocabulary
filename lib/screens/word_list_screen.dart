@@ -46,6 +46,7 @@ class _WordListScreenState extends State<WordListScreen> {
     _pageController = PageController();
     _loadWords();
     _loadBannerAd();
+    AdService.instance.loadInterstitialAd(); // 플래시카드 종료 시 전면 광고용
     _loadFontSize();
   }
 
@@ -261,6 +262,19 @@ class _WordListScreenState extends State<WordListScreen> {
     );
   }
 
+  // 플래시카드 모드에서 뒤로가기 시 전면 광고 표시
+  Future<void> _handleBackPress() async {
+    if (widget.isFlashcardMode) {
+      final adService = AdService.instance;
+      if (!adService.adsRemoved && adService.isInterstitialAdLoaded) {
+        await adService.showInterstitialAd();
+      }
+    }
+    if (mounted) {
+      Navigator.of(context).pop();
+    }
+  }
+
   @override
   void dispose() {
     _pageController.dispose();
@@ -286,6 +300,12 @@ class _WordListScreenState extends State<WordListScreen> {
 
     return Scaffold(
       appBar: AppBar(
+        leading: widget.isFlashcardMode
+            ? IconButton(
+                icon: const Icon(Icons.arrow_back),
+                onPressed: _handleBackPress,
+              )
+            : null,
         title: Column(
           children: [
             Text(title),
