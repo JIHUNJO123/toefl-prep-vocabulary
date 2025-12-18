@@ -1,4 +1,4 @@
-import 'dart:io';
+ï»¿import 'dart:io';
 import 'package:flutter/foundation.dart';
 import 'package:google_mobile_ads/google_mobile_ads.dart';
 import 'package:shared_preferences/shared_preferences.dart';
@@ -16,7 +16,7 @@ class AdService {
   InterstitialAd? _interstitialAd;
   bool _isInterstitialAdLoaded = false;
 
-  // ½ÇÁ¦ ±¤°í ID
+  // ì‹¤ì œ ê´‘ê³  ID
   // Android
   static const String _androidBannerId =
       'ca-app-pub-5837885590326347/7801537117';
@@ -54,7 +54,7 @@ class AdService {
   Future<void> initialize() async {
     if (_isInitialized) return;
 
-    // ±¤°í Á¦°Å ±¸¸Å ¿©ºÎ È®ÀÎ
+    // ê´‘ê³  ì œê±° êµ¬ë§¤ ì—¬ë¶€ í™•ì¸
     final prefs = await SharedPreferences.getInstance();
     _adsRemoved = prefs.getBool('ads_removed') ?? false;
 
@@ -63,29 +63,29 @@ class AdService {
       return;
     }
 
-    // À¥ ¶Ç´Â µ¥½ºÅ©Åé¿¡¼­´Â ±¤°í ºñÈ°¼ºÈ­
+    // ì›¹ ë˜ëŠ” ë°ìŠ¤í¬í†±ì—ì„œëŠ” ê´‘ê³  ë¹„í™œì„±í™”
     if (kIsWeb || (!Platform.isAndroid && !Platform.isIOS)) {
       _isInitialized = true;
       return;
-    }
-
-    // iOS¿¡¼­ ATT(App Tracking Transparency) ±ÇÇÑ ¿äÃ»
-    if (Platform.isIOS) {
-      await _requestTrackingAuthorization();
     }
 
     await MobileAds.instance.initialize();
     _isInitialized = true;
   }
 
-  // iOS ATT ±ÇÇÑ ¿äÃ»
-  Future<void> _requestTrackingAuthorization() async {
+  // iOS ATT ê¶Œí•œ ìš”ì²­ - ì•±ì´ í™”ë©´ì— í‘œì‹œëœ í›„ í˜¸ì¶œí•´ì•¼ í•¨
+  Future<void> requestTrackingAuthorizationIfNeeded() async {
+    if (!Platform.isIOS) return;
+    
     try {
       final status = await AppTrackingTransparency.trackingAuthorizationStatus;
+      debugPrint('ATT current status: $status');
+      
       if (status == TrackingStatus.notDetermined) {
-        // Àá½Ã ´ë±â ÈÄ ±ÇÇÑ ¿äÃ» (¾Û ½ÃÀÛ Á÷ÈÄ ¹Ù·Î ¿äÃ»ÇÏ¸é ¹«½ÃµÉ ¼ö ÀÖÀ½)
-        await Future.delayed(const Duration(milliseconds: 500));
-        await AppTrackingTransparency.requestTrackingAuthorization();
+        // ì•±ì´ ì™„ì „íˆ í™œì„±í™”ëœ í›„ ê¶Œí•œ ìš”ì²­
+        await Future.delayed(const Duration(seconds: 1));
+        final result = await AppTrackingTransparency.requestTrackingAuthorization();
+        debugPrint('ATT request result: $result');
       }
     } catch (e) {
       debugPrint('ATT request error: $e');
@@ -139,7 +139,7 @@ class AdService {
     _isBannerAdLoaded = false;
   }
 
-  // Àü¸é ±¤°í ·Îµå
+  // ì „ë©´ ê´‘ê³  ë¡œë“œ
   Future<void> loadInterstitialAd() async {
     if (_adsRemoved) return;
     if (kIsWeb || (!Platform.isAndroid && !Platform.isIOS)) return;
@@ -157,7 +157,7 @@ class AdService {
             onAdDismissedFullScreenContent: (ad) {
               ad.dispose();
               _isInterstitialAdLoaded = false;
-              loadInterstitialAd(); // ´ÙÀ½ ±¤°í ¹Ì¸® ·Îµå
+              loadInterstitialAd(); // ë‹¤ìŒ ê´‘ê³  ë¯¸ë¦¬ ë¡œë“œ
             },
             onAdFailedToShowFullScreenContent: (ad, error) {
               ad.dispose();
@@ -174,7 +174,7 @@ class AdService {
     );
   }
 
-  // Àü¸é ±¤°í Ç¥½Ã
+  // ì „ë©´ ê´‘ê³  í‘œì‹œ
   Future<void> showInterstitialAd() async {
     if (_adsRemoved) return;
     if (!_isInterstitialAdLoaded || _interstitialAd == null) return;
@@ -188,7 +188,7 @@ class AdService {
     _isInterstitialAdLoaded = false;
   }
 
-  // ±¤°í Á¦°Å ±¸¸Å ½Ã È£Ãâ
+  // ê´‘ê³  ì œê±° êµ¬ë§¤ ì‹œ í˜¸ì¶œ
   Future<void> removeAds() async {
     final prefs = await SharedPreferences.getInstance();
     await prefs.setBool('ads_removed', true);
@@ -197,7 +197,7 @@ class AdService {
     disposeInterstitialAd();
   }
 
-  // ±¤°í Á¦°Å º¹¿ø (IAP º¹¿ø¿ë)
+  // ê´‘ê³  ì œê±° ë³µì› (IAP ë³µì›ìš©)
   Future<void> restoreAdsRemoved() async {
     final prefs = await SharedPreferences.getInstance();
     _adsRemoved = prefs.getBool('ads_removed') ?? false;
