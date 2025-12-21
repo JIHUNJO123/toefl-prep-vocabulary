@@ -483,89 +483,89 @@ class _WordListScreenState extends State<WordListScreen> {
         padding: const EdgeInsets.all(16),
         itemCount: _words.length,
         itemBuilder: (context, index) {
-        final word = _words[index];
-        _loadTranslationForWord(word);
+          final word = _words[index];
+          _loadTranslationForWord(word);
 
-        final definition =
-            _showNativeLanguage && _translatedDefinitions.containsKey(word.id)
-                ? _translatedDefinitions[word.id]!
-                : word.definition;
+          final definition =
+              _showNativeLanguage && _translatedDefinitions.containsKey(word.id)
+                  ? _translatedDefinitions[word.id]!
+                  : word.definition;
 
-        return Card(
-          margin: const EdgeInsets.only(bottom: 12),
-          child: ListTile(
-            onTap: () {
-              Navigator.push(
-                context,
-                MaterialPageRoute(
-                  builder: (context) => WordDetailScreen(word: word),
-                ),
-              );
-            },
-            title: Row(
-              children: [
-                Expanded(
-                  child: Text(
-                    word.word,
-                    style: TextStyle(
-                      fontWeight: FontWeight.bold,
-                      fontSize: 16 * _wordFontSize,
-                    ),
+          return Card(
+            margin: const EdgeInsets.only(bottom: 12),
+            child: ListTile(
+              onTap: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => WordDetailScreen(word: word),
                   ),
-                ),
-                // Band 배지: All Words에서 토글 가능
-                if (widget.level == null && _showBandBadge)
-                  Container(
-                    padding: const EdgeInsets.symmetric(
-                      horizontal: 8,
-                      vertical: 2,
-                    ),
-                    decoration: BoxDecoration(
-                      color: _getLevelColor(word.level),
-                      borderRadius: BorderRadius.circular(10),
-                    ),
+                );
+              },
+              title: Row(
+                children: [
+                  Expanded(
                     child: Text(
-                      word.level,
-                      style: const TextStyle(
-                        color: Colors.white,
-                        fontSize: 10,
+                      word.word,
+                      style: TextStyle(
                         fontWeight: FontWeight.bold,
+                        fontSize: 16 * _wordFontSize,
                       ),
                     ),
                   ),
-              ],
-            ),
-            subtitle: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                const SizedBox(height: 4),
-                Row(
-                  children: [
-                    Text(
-                      word.partOfSpeech,
-                      style: TextStyle(color: Colors.grey[600], fontSize: 12),
+                  // Band 배지: All Words에서 토글 가능
+                  if (widget.level == null && _showBandBadge)
+                    Container(
+                      padding: const EdgeInsets.symmetric(
+                        horizontal: 8,
+                        vertical: 2,
+                      ),
+                      decoration: BoxDecoration(
+                        color: _getLevelColor(word.level),
+                        borderRadius: BorderRadius.circular(10),
+                      ),
+                      child: Text(
+                        word.level,
+                        style: const TextStyle(
+                          color: Colors.white,
+                          fontSize: 10,
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
                     ),
-                  ],
-                ),
-                const SizedBox(height: 4),
-                Text(
-                  definition,
-                  maxLines: 2,
-                  overflow: TextOverflow.ellipsis,
-                  style: TextStyle(fontSize: 14 * _wordFontSize),
-                ),
-              ],
-            ),
-            trailing: IconButton(
-              icon: Icon(
-                word.isFavorite ? Icons.favorite : Icons.favorite_border,
-                color: word.isFavorite ? Colors.red : null,
+                ],
               ),
-              onPressed: () => _toggleFavorite(word),
+              subtitle: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  const SizedBox(height: 4),
+                  Row(
+                    children: [
+                      Text(
+                        word.partOfSpeech,
+                        style: TextStyle(color: Colors.grey[600], fontSize: 12),
+                      ),
+                    ],
+                  ),
+                  const SizedBox(height: 4),
+                  Text(
+                    definition,
+                    maxLines: 2,
+                    overflow: TextOverflow.ellipsis,
+                    style: TextStyle(fontSize: 14 * _wordFontSize),
+                  ),
+                ],
+              ),
+              trailing: IconButton(
+                icon: Icon(
+                  word.isFavorite ? Icons.favorite : Icons.favorite_border,
+                  color: word.isFavorite ? Colors.red : null,
+                ),
+                onPressed: () => _toggleFavorite(word),
+              ),
             ),
-          ),
-        );
-      },
+          );
+        },
       ),
     );
   }
