@@ -494,13 +494,25 @@ class _WordListScreenState extends State<WordListScreen> {
           return Card(
             margin: const EdgeInsets.only(bottom: 12),
             child: ListTile(
-              onTap: () {
-                Navigator.push(
+              onTap: () async {
+                final result = await Navigator.push<int>(
                   context,
                   MaterialPageRoute(
-                    builder: (context) => WordDetailScreen(word: word),
+                    builder:
+                        (context) => WordDetailScreen(
+                          word: word,
+                          wordList: List<Word>.from(_words),
+                          currentIndex: index,
+                        ),
                   ),
                 );
+                if (result != null && result != index && mounted) {
+                  _listScrollController.animateTo(
+                    result * 80.0,
+                    duration: const Duration(milliseconds: 300),
+                    curve: Curves.easeInOut,
+                  );
+                }
               },
               title: Row(
                 children: [
