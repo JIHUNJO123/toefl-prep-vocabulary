@@ -73,6 +73,10 @@
   "restorePurchaseDesc": "以前に別のデバイスで、またはアプリを再インストールした後に広告削除を購入した場合は、ここをタップして購入を復元してください。",
   "restoreComplete": "復元完了",
   "noPurchaseFound": "以前の購入は見つかりません",
+  "cancel": "キャンセル",
+  "selectWordSource": "単語ソースを選択",
+  "favoritesOnlyQuiz": "お気に入りのみ",
+  "selectLevel": "レベルを選択",
   "levelWords": "{level} すべての単語",
   "@levelWords": {
     "placeholders": {

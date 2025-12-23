@@ -73,6 +73,10 @@
   "restorePurchaseDesc": "다른 기기에서 또는 앱을 다시 설치한 후 광고 제거 기능을 구매한 경우, 여기를 탭하여 구매 내역을 복원하세요.",
   "restoreComplete": "복원 완료",
   "noPurchaseFound": "이전 구매 내역이 없습니다.",
+  "cancel": "취소",
+  "selectWordSource": "단어 소스 선택",
+  "favoritesOnlyQuiz": "즐겨찾기만",
+  "selectLevel": "레벨 선택",
   "levelWords": "{level} 단어",
   "@levelWords": {
     "placeholders": {

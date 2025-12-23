@@ -73,6 +73,10 @@
   "restorePurchaseDesc": "إذا كنت قد اشتريت خدمة إزالة الإعلانات مسبقًا على جهاز آخر أو بعد إعادة تثبيت التطبيق، فانقر هنا لاستعادة عملية الشراء.",
   "restoreComplete": "استعادة كاملة",
   "noPurchaseFound": "لم يتم العثور على أي عملية شراء سابقة",
+  "cancel": "إلغاء",
+  "selectWordSource": "اختر مصدر الكلمات",
+  "favoritesOnlyQuiz": "المفضلة فقط",
+  "selectLevel": "اختر المستوى",
   "levelWords": "{level} الكلمات",
   "@levelWords": {
     "placeholders": {

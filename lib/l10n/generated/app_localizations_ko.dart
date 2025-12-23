@@ -231,4 +231,16 @@ class AppLocalizationsKo extends AppLocalizations {
 
   @override
   String get noPurchaseFound => '이전 구매 내역이 없습니다.';
+
+  @override
+  String get cancel => '취소';
+
+  @override
+  String get selectWordSource => '단어 소스 선택';
+
+  @override
+  String get favoritesOnlyQuiz => '즐겨찾기만';
+
+  @override
+  String get selectLevel => '레벨 선택';
 }

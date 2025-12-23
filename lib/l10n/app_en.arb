@@ -74,6 +74,10 @@
   "restorePurchaseDesc": "If you have previously purchased ad removal on another device or after reinstalling the app, tap here to restore your purchase.",
   "restoreComplete": "Restore complete",
   "noPurchaseFound": "No previous purchase found",
+  "cancel": "Cancel",
+  "selectWordSource": "Select Word Source",
+  "favoritesOnlyQuiz": "Favorites Only",
+  "selectLevel": "Select Level",
   "@levelWords": {
     "placeholders": {
       "level": {

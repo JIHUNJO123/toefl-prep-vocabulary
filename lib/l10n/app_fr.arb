@@ -73,6 +73,10 @@
   "restorePurchaseDesc": "Si vous avez déjà acheté la suppression des publicités sur un autre appareil ou après avoir réinstallé l'application, appuyez ici pour restaurer votre achat.",
   "restoreComplete": "Restauration complète",
   "noPurchaseFound": "Aucun achat précédent trouvé",
+  "cancel": "Annuler",
+  "selectWordSource": "Sélectionner la source des mots",
+  "favoritesOnlyQuiz": "Favoris uniquement",
+  "selectLevel": "Sélectionner le niveau",
   "levelWords": "{level} mots",
   "@levelWords": {
     "placeholders": {

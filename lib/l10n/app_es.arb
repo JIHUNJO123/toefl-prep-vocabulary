@@ -73,6 +73,10 @@
   "restorePurchaseDesc": "Si anteriormente compró la eliminación de anuncios en otro dispositivo o después de reinstalar la aplicación, toque aquí para restaurar su compra.",
   "restoreComplete": "Restauración completa",
   "noPurchaseFound": "No se encontró ninguna compra previa",
+  "cancel": "Cancelar",
+  "selectWordSource": "Seleccionar fuente de palabras",
+  "favoritesOnlyQuiz": "Solo favoritos",
+  "selectLevel": "Seleccionar nivel",
   "levelWords": "{level} palabras",
   "@levelWords": {
     "placeholders": {

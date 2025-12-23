@@ -10,8 +10,9 @@ enum QuizType { wordToMeaning, meaningToWord }
 
 class QuizScreen extends StatefulWidget {
   final String? level;
+  final bool favoritesOnly;
 
-  const QuizScreen({super.key, this.level});
+  const QuizScreen({super.key, this.level, this.favoritesOnly = false});
 
   @override
   State<QuizScreen> createState() => _QuizScreenState();
@@ -38,7 +39,13 @@ class _QuizScreenState extends State<QuizScreen> {
 
   Future<void> _loadWords() async {
     // JSON에서 단어 로드 (내장 번역 포함)
-    final jsonWords = await DatabaseHelper.instance.getWordsWithTranslations();
+    List<Word> jsonWords;
+    if (widget.favoritesOnly) {
+      jsonWords =
+          await DatabaseHelper.instance.getFavoriteWordsWithTranslations();
+    } else {
+      jsonWords = await DatabaseHelper.instance.getWordsWithTranslations();
+    }
 
     List<Word> words;
     if (widget.level != null) {

@@ -231,4 +231,16 @@ class AppLocalizationsJa extends AppLocalizations {
 
   @override
   String get noPurchaseFound => '以前の購入は見つかりません';
+
+  @override
+  String get cancel => 'キャンセル';
+
+  @override
+  String get selectWordSource => '単語ソースを選択';
+
+  @override
+  String get favoritesOnlyQuiz => 'お気に入りのみ';
+
+  @override
+  String get selectLevel => 'レベルを選択';
 }

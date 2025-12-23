@@ -231,4 +231,16 @@ class AppLocalizationsId extends AppLocalizations {
 
   @override
   String get noPurchaseFound => 'Tidak ditemukan riwayat pembelian sebelumnya.';
+
+  @override
+  String get cancel => 'Batal';
+
+  @override
+  String get selectWordSource => 'Pilih sumber kata';
+
+  @override
+  String get favoritesOnlyQuiz => 'Hanya favorit';
+
+  @override
+  String get selectLevel => 'Pilih level';
 }

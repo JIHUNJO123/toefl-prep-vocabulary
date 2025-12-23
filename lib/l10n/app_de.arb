@@ -73,6 +73,10 @@
   "restorePurchaseDesc": "Falls Sie die Werbeentfernung bereits auf einem anderen Gerät oder nach der Neuinstallation der App erworben haben, tippen Sie hier, um Ihren Kauf wiederherzustellen.",
   "restoreComplete": "Wiederherstellung vollständig",
   "noPurchaseFound": "Es wurden keine vorherigen Käufe gefunden",
+  "cancel": "Abbrechen",
+  "selectWordSource": "Wortquelle auswählen",
+  "favoritesOnlyQuiz": "Nur Favoriten",
+  "selectLevel": "Level auswählen",
   "levelWords": "{level} Wörter",
   "@levelWords": {
     "placeholders": {

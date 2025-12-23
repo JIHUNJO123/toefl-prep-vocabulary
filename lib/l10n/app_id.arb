@@ -73,6 +73,10 @@
   "restorePurchaseDesc": "Jika Anda sebelumnya telah membeli penghapusan iklan di perangkat lain atau setelah menginstal ulang aplikasi, ketuk di sini untuk memulihkan pembelian Anda.",
   "restoreComplete": "Pemulihan lengkap",
   "noPurchaseFound": "Tidak ditemukan riwayat pembelian sebelumnya.",
+  "cancel": "Batal",
+  "selectWordSource": "Pilih sumber kata",
+  "favoritesOnlyQuiz": "Hanya favorit",
+  "selectLevel": "Pilih level",
   "levelWords": "{level} Kata",
   "@levelWords": {
     "placeholders": {

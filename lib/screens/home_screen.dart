@@ -365,27 +365,14 @@ class _HomeScreenState extends State<HomeScreen> {
           title: l10n.flashcard,
           subtitle: l10n.cardLearning,
           color: Colors.orange,
-          onTap: () {
-            Navigator.push(
-              context,
-              MaterialPageRoute(
-                builder:
-                    (context) => const WordListScreen(isFlashcardMode: true),
-              ),
-            );
-          },
+          onTap: () => _showLevelSelectionDialog(isQuiz: false),
         ),
         _buildMenuCard(
           icon: Icons.quiz,
           title: l10n.quiz,
           subtitle: l10n.testYourself,
           color: Colors.green,
-          onTap: () {
-            Navigator.push(
-              context,
-              MaterialPageRoute(builder: (context) => const QuizScreen()),
-            );
-          },
+          onTap: () => _showLevelSelectionDialog(isQuiz: true),
         ),
       ],
     );
@@ -438,6 +425,135 @@ class _HomeScreenState extends State<HomeScreen> {
           ),
         ),
       ),
+    );
+  }
+
+  void _showLevelSelectionDialog({required bool isQuiz}) {
+    final l10n = AppLocalizations.of(context)!;
+
+    final levels = [
+      {'level': '0-60', 'name': l10n.beginner, 'color': Colors.green},
+      {'level': '60-80', 'name': l10n.intermediate, 'color': Colors.blue},
+      {'level': '80-100', 'name': l10n.advanced, 'color': Colors.orange},
+      {'level': '100+', 'name': l10n.expert, 'color': Colors.red},
+    ];
+
+    showDialog(
+      context: context,
+      builder:
+          (context) => AlertDialog(
+            title: Text(l10n.selectWordSource),
+            content: Column(
+              mainAxisSize: MainAxisSize.min,
+              children: [
+                // 전체 단어
+                ListTile(
+                  leading: const Icon(
+                    Icons.all_inclusive,
+                    color: Colors.purple,
+                  ),
+                  title: Text(l10n.allWords),
+                  onTap: () {
+                    Navigator.pop(context);
+                    if (isQuiz) {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (context) => const QuizScreen(),
+                        ),
+                      );
+                    } else {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder:
+                              (context) =>
+                                  const WordListScreen(isFlashcardMode: true),
+                        ),
+                      );
+                    }
+                  },
+                ),
+                // 즐겨찾기만
+                ListTile(
+                  leading: const Icon(Icons.favorite, color: Colors.red),
+                  title: Text(l10n.favoritesOnlyQuiz),
+                  onTap: () {
+                    Navigator.pop(context);
+                    if (isQuiz) {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder:
+                              (context) =>
+                                  const QuizScreen(favoritesOnly: true),
+                        ),
+                      );
+                    } else {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder:
+                              (context) => const WordListScreen(
+                                isFlashcardMode: true,
+                                favoritesOnly: true,
+                              ),
+                        ),
+                      );
+                    }
+                  },
+                ),
+                const Divider(),
+                // 난이도별 선택
+                Padding(
+                  padding: const EdgeInsets.symmetric(vertical: 8.0),
+                  child: Text(
+                    l10n.selectLevel,
+                    style: TextStyle(
+                      color: Colors.grey[600],
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
+                ),
+                ...levels.map(
+                  (level) => ListTile(
+                    leading: Icon(Icons.school, color: level['color'] as Color),
+                    title: Text(level['name'] as String),
+                    onTap: () {
+                      Navigator.pop(context);
+                      if (isQuiz) {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder:
+                                (context) =>
+                                    QuizScreen(level: level['level'] as String),
+                          ),
+                        );
+                      } else {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder:
+                                (context) => WordListScreen(
+                                  level: level['level'] as String,
+                                  isFlashcardMode: true,
+                                ),
+                          ),
+                        );
+                      }
+                    },
+                  ),
+                ),
+              ],
+            ),
+            actions: [
+              TextButton(
+                onPressed: () => Navigator.pop(context),
+                child: Text(l10n.cancel),
+              ),
+            ],
+          ),
     );
   }
 
@@ -552,5 +668,3 @@ class _HomeScreenState extends State<HomeScreen> {
     );
   }
 }
-
-

@@ -231,4 +231,16 @@ class AppLocalizationsEs extends AppLocalizations {
 
   @override
   String get noPurchaseFound => 'No se encontró ninguna compra previa';
+
+  @override
+  String get cancel => 'Cancelar';
+
+  @override
+  String get selectWordSource => 'Seleccionar fuente de palabras';
+
+  @override
+  String get favoritesOnlyQuiz => 'Solo favoritos';
+
+  @override
+  String get selectLevel => 'Seleccionar nivel';
 }

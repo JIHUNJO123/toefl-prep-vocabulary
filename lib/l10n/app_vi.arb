@@ -73,6 +73,10 @@
   "restorePurchaseDesc": "Nếu trước đây bạn đã mua gói xóa quảng cáo trên thiết bị khác hoặc sau khi cài đặt lại ứng dụng, hãy nhấn vào đây để khôi phục giao dịch mua của bạn.",
   "restoreComplete": "Khôi phục hoàn tất",
   "noPurchaseFound": "Không tìm thấy giao dịch mua hàng trước đó.",
+  "cancel": "Hủy",
+  "selectWordSource": "Chọn nguồn từ",
+  "favoritesOnlyQuiz": "Chỉ mục yêu thích",
+  "selectLevel": "Chọn cấp độ",
   "levelWords": "{level} từ",
   "@levelWords": {
     "placeholders": {

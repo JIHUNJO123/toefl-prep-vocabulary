@@ -231,4 +231,16 @@ class AppLocalizationsVi extends AppLocalizations {
 
   @override
   String get noPurchaseFound => 'Không tìm thấy giao dịch mua hàng trước đó.';
+
+  @override
+  String get cancel => 'Hủy';
+
+  @override
+  String get selectWordSource => 'Chọn nguồn từ';
+
+  @override
+  String get favoritesOnlyQuiz => 'Chỉ mục yêu thích';
+
+  @override
+  String get selectLevel => 'Chọn cấp độ';
 }
