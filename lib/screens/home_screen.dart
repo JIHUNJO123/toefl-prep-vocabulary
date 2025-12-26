@@ -1,6 +1,5 @@
 ﻿import 'package:flutter/material.dart';
 import 'package:toefl_vocab_app/l10n/generated/app_localizations.dart';
-import 'package:google_mobile_ads/google_mobile_ads.dart';
 import '../db/database_helper.dart';
 import '../models/word.dart';
 import '../services/translation_service.dart';
@@ -22,18 +21,13 @@ class _HomeScreenState extends State<HomeScreen> {
   Word? _todayWord;
   String? _translatedDefinition;
   bool _isLoading = true;
-  bool _isBannerAdLoaded = false;
   String? _lastLanguage;
 
   @override
   void initState() {
     super.initState();
     _loadTodayWord();
-    _loadBannerAd();
-    // iOS에서 ATT 권한 요청 (앱이 화면에 표시된 후)
-    WidgetsBinding.instance.addPostFrameCallback((_) {
-      AdService.instance.requestTrackingAuthorizationIfNeeded();
-    });
+    AdService.instance.loadRewardedAd();
   }
 
   @override
@@ -44,23 +38,6 @@ class _HomeScreenState extends State<HomeScreen> {
       _loadTodayWord();
     }
     _lastLanguage = currentLanguage;
-  }
-
-  Future<void> _loadBannerAd() async {
-    final adService = AdService.instance;
-    await adService.initialize();
-
-    if (!adService.adsRemoved) {
-      await adService.loadBannerAd(
-        onLoaded: () {
-          if (mounted) {
-            setState(() {
-              _isBannerAdLoaded = true;
-            });
-          }
-        },
-      );
-    }
   }
 
   Future<void> _loadTodayWord() async {
@@ -114,7 +91,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
   @override
   void dispose() {
-    AdService.instance.disposeBannerAd();
+    AdService.instance.dispose();
     super.dispose();
   }
 
@@ -189,20 +166,7 @@ class _HomeScreenState extends State<HomeScreen> {
   }
 
   Widget _buildBannerAd() {
-    final adService = AdService.instance;
-
-    if (adService.adsRemoved ||
-        !_isBannerAdLoaded ||
-        adService.bannerAd == null) {
-      return const SizedBox.shrink();
-    }
-
-    return Container(
-      width: adService.bannerAd!.size.width.toDouble(),
-      height: adService.bannerAd!.size.height.toDouble(),
-      alignment: Alignment.center,
-      child: AdWidget(ad: adService.bannerAd!),
-    );
+    return const SizedBox.shrink();
   }
 
   Widget _buildTodayWordCard() {
@@ -440,120 +404,114 @@ class _HomeScreenState extends State<HomeScreen> {
 
     showDialog(
       context: context,
-      builder:
-          (context) => AlertDialog(
-            title: Text(l10n.selectWordSource),
-            content: Column(
-              mainAxisSize: MainAxisSize.min,
-              children: [
-                // 전체 단어
-                ListTile(
-                  leading: const Icon(
-                    Icons.all_inclusive,
-                    color: Colors.purple,
-                  ),
-                  title: Text(l10n.allWords),
-                  onTap: () {
-                    Navigator.pop(context);
-                    if (isQuiz) {
-                      Navigator.push(
-                        context,
-                        MaterialPageRoute(
-                          builder: (context) => const QuizScreen(),
-                        ),
-                      );
-                    } else {
-                      Navigator.push(
-                        context,
-                        MaterialPageRoute(
-                          builder:
-                              (context) =>
-                                  const WordListScreen(isFlashcardMode: true),
-                        ),
-                      );
-                    }
-                  },
-                ),
-                // 즐겨찾기만
-                ListTile(
-                  leading: const Icon(Icons.favorite, color: Colors.red),
-                  title: Text(l10n.favoritesOnlyQuiz),
-                  onTap: () {
-                    Navigator.pop(context);
-                    if (isQuiz) {
-                      Navigator.push(
-                        context,
-                        MaterialPageRoute(
-                          builder:
-                              (context) =>
-                                  const QuizScreen(favoritesOnly: true),
-                        ),
-                      );
-                    } else {
-                      Navigator.push(
-                        context,
-                        MaterialPageRoute(
-                          builder:
-                              (context) => const WordListScreen(
-                                isFlashcardMode: true,
-                                favoritesOnly: true,
-                              ),
-                        ),
-                      );
-                    }
-                  },
-                ),
-                const Divider(),
-                // 난이도별 선택
-                Padding(
-                  padding: const EdgeInsets.symmetric(vertical: 8.0),
-                  child: Text(
-                    l10n.selectLevel,
-                    style: TextStyle(
-                      color: Colors.grey[600],
-                      fontWeight: FontWeight.bold,
-                    ),
-                  ),
-                ),
-                ...levels.map(
-                  (level) => ListTile(
-                    leading: Icon(Icons.school, color: level['color'] as Color),
-                    title: Text(level['name'] as String),
-                    onTap: () {
-                      Navigator.pop(context);
-                      if (isQuiz) {
-                        Navigator.push(
-                          context,
-                          MaterialPageRoute(
-                            builder:
-                                (context) =>
-                                    QuizScreen(level: level['level'] as String),
-                          ),
-                        );
-                      } else {
-                        Navigator.push(
-                          context,
-                          MaterialPageRoute(
-                            builder:
-                                (context) => WordListScreen(
-                                  level: level['level'] as String,
-                                  isFlashcardMode: true,
-                                ),
-                          ),
-                        );
-                      }
-                    },
-                  ),
-                ),
-              ],
-            ),
-            actions: [
-              TextButton(
-                onPressed: () => Navigator.pop(context),
-                child: Text(l10n.cancel),
+      builder: (context) => AlertDialog(
+        title: Text(l10n.selectWordSource),
+        content: Column(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            // 전체 단어
+            ListTile(
+              leading: const Icon(
+                Icons.all_inclusive,
+                color: Colors.purple,
               ),
-            ],
+              title: Text(l10n.allWords),
+              onTap: () {
+                Navigator.pop(context);
+                if (isQuiz) {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => const QuizScreen(),
+                    ),
+                  );
+                } else {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) =>
+                          const WordListScreen(isFlashcardMode: true),
+                    ),
+                  );
+                }
+              },
+            ),
+            // 즐겨찾기만
+            ListTile(
+              leading: const Icon(Icons.favorite, color: Colors.red),
+              title: Text(l10n.favoritesOnlyQuiz),
+              onTap: () {
+                Navigator.pop(context);
+                if (isQuiz) {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) =>
+                          const QuizScreen(favoritesOnly: true),
+                    ),
+                  );
+                } else {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => const WordListScreen(
+                        isFlashcardMode: true,
+                        favoritesOnly: true,
+                      ),
+                    ),
+                  );
+                }
+              },
+            ),
+            const Divider(),
+            // 난이도별 선택
+            Padding(
+              padding: const EdgeInsets.symmetric(vertical: 8.0),
+              child: Text(
+                l10n.selectLevel,
+                style: TextStyle(
+                  color: Colors.grey[600],
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+            ),
+            ...levels.map(
+              (level) => ListTile(
+                leading: Icon(Icons.school, color: level['color'] as Color),
+                title: Text(level['name'] as String),
+                onTap: () {
+                  Navigator.pop(context);
+                  if (isQuiz) {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) =>
+                            QuizScreen(level: level['level'] as String),
+                      ),
+                    );
+                  } else {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => WordListScreen(
+                          level: level['level'] as String,
+                          isFlashcardMode: true,
+                        ),
+                      ),
+                    );
+                  }
+                },
+              ),
+            ),
+          ],
+        ),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.pop(context),
+            child: Text(l10n.cancel),
           ),
+        ],
+      ),
     );
   }
 
@@ -608,9 +566,8 @@ class _HomeScreenState extends State<HomeScreen> {
                   Navigator.push(
                     context,
                     MaterialPageRoute(
-                      builder:
-                          (context) =>
-                              WordListScreen(level: level['level'] as String),
+                      builder: (context) =>
+                          WordListScreen(level: level['level'] as String),
                     ),
                   );
                 },

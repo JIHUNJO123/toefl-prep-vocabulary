@@ -84,5 +84,10 @@
         "type": "String"
       }
     }
-  }
+  },
+  "lockedContent": "锁定内容",
+  "watchAdToUnlock": "观看短视频即可解锁所有单词至午夜！",
+  "watchAd": "观看广告",
+  "adNotReady": "广告尚未准备好，请稍后再试。",
+  "unlockedUntilMidnight": "所有单词已解锁至午夜！"
 }

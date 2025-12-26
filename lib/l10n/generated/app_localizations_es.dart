@@ -111,7 +111,8 @@ class AppLocalizationsEs extends AppLocalizations {
   String get disclaimer => 'Descargo de responsabilidad';
 
   @override
-  String get disclaimerText => 'Esta aplicación es una herramienta independiente de preparación para el examen TOEFL y no está afiliada, respaldada ni aprobada por ETS (Educational Testing Service).';
+  String get disclaimerText =>
+      'Esta aplicación es una herramienta independiente de preparación para el examen TOEFL y no está afiliada, respaldada ni aprobada por ETS (Educational Testing Service).';
 
   @override
   String get privacyPolicy => 'política de privacidad';
@@ -123,7 +124,8 @@ class AppLocalizationsEs extends AppLocalizations {
   String get noFavoritesYet => 'No hay favoritos todavía';
 
   @override
-  String get tapHeartToSave => 'Toque el icono del corazón para guardar palabras.';
+  String get tapHeartToSave =>
+      'Toque el icono del corazón para guardar palabras.';
 
   @override
   String get addedToFavorites => 'Añadido a favoritos';
@@ -221,10 +223,12 @@ class AppLocalizationsEs extends AppLocalizations {
   String get keepPracticing => '¡Sigue practicando! ¡Mejorarás!';
 
   @override
-  String get privacyPolicyContent => 'Esta aplicación no recopila, almacena ni comparte información personal.\n\nTu progreso de aprendizaje y tus favoritos se almacenan únicamente en tu dispositivo.\n\nNo se transmiten datos a servidores externos.';
+  String get privacyPolicyContent =>
+      'Esta aplicación no recopila, almacena ni comparte información personal.\n\nTu progreso de aprendizaje y tus favoritos se almacenan únicamente en tu dispositivo.\n\nNo se transmiten datos a servidores externos.';
 
   @override
-  String get restorePurchaseDesc => 'Si anteriormente compró la eliminación de anuncios en otro dispositivo o después de reinstalar la aplicación, toque aquí para restaurar su compra.';
+  String get restorePurchaseDesc =>
+      'Si anteriormente compró la eliminación de anuncios en otro dispositivo o después de reinstalar la aplicación, toque aquí para restaurar su compra.';
 
   @override
   String get restoreComplete => 'Restauración completa';
@@ -243,4 +247,20 @@ class AppLocalizationsEs extends AppLocalizations {
 
   @override
   String get selectLevel => 'Seleccionar nivel';
+
+  @override
+  String get lockedContent => 'Locked Content';
+
+  @override
+  String get watchAdToUnlock =>
+      'Watch a short video to unlock all words until midnight!';
+
+  @override
+  String get watchAd => 'Watch Ad';
+
+  @override
+  String get adNotReady => 'Ad is not ready yet. Please try again.';
+
+  @override
+  String get unlockedUntilMidnight => 'All words unlocked until midnight!';
 }

@@ -111,7 +111,8 @@ class AppLocalizationsVi extends AppLocalizations {
   String get disclaimer => 'Tuyên bố miễn trừ trách nhiệm';
 
   @override
-  String get disclaimerText => 'Ứng dụng này là một công cụ luyện thi TOEFL độc lập và không liên kết, không được chứng thực hoặc phê duyệt bởi ETS (Educational Testing Service).';
+  String get disclaimerText =>
+      'Ứng dụng này là một công cụ luyện thi TOEFL độc lập và không liên kết, không được chứng thực hoặc phê duyệt bởi ETS (Educational Testing Service).';
 
   @override
   String get privacyPolicy => 'Chính sách bảo mật';
@@ -221,10 +222,12 @@ class AppLocalizationsVi extends AppLocalizations {
   String get keepPracticing => 'Hãy tiếp tục luyện tập! Bạn sẽ tiến bộ!';
 
   @override
-  String get privacyPolicyContent => 'Ứng dụng này không thu thập, lưu trữ hoặc chia sẻ bất kỳ thông tin cá nhân nào.\n\nTiến trình học tập và mục yêu thích của bạn chỉ được lưu trữ trên thiết bị của bạn.\n\nKhông có dữ liệu nào được truyền đến máy chủ bên ngoài.';
+  String get privacyPolicyContent =>
+      'Ứng dụng này không thu thập, lưu trữ hoặc chia sẻ bất kỳ thông tin cá nhân nào.\n\nTiến trình học tập và mục yêu thích của bạn chỉ được lưu trữ trên thiết bị của bạn.\n\nKhông có dữ liệu nào được truyền đến máy chủ bên ngoài.';
 
   @override
-  String get restorePurchaseDesc => 'Nếu trước đây bạn đã mua gói xóa quảng cáo trên thiết bị khác hoặc sau khi cài đặt lại ứng dụng, hãy nhấn vào đây để khôi phục giao dịch mua của bạn.';
+  String get restorePurchaseDesc =>
+      'Nếu trước đây bạn đã mua gói xóa quảng cáo trên thiết bị khác hoặc sau khi cài đặt lại ứng dụng, hãy nhấn vào đây để khôi phục giao dịch mua của bạn.';
 
   @override
   String get restoreComplete => 'Khôi phục hoàn tất';
@@ -243,4 +246,20 @@ class AppLocalizationsVi extends AppLocalizations {
 
   @override
   String get selectLevel => 'Chọn cấp độ';
+
+  @override
+  String get lockedContent => 'Locked Content';
+
+  @override
+  String get watchAdToUnlock =>
+      'Watch a short video to unlock all words until midnight!';
+
+  @override
+  String get watchAd => 'Watch Ad';
+
+  @override
+  String get adNotReady => 'Ad is not ready yet. Please try again.';
+
+  @override
+  String get unlockedUntilMidnight => 'All words unlocked until midnight!';
 }

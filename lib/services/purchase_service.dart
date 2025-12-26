@@ -108,11 +108,10 @@ class PurchaseService {
       } else if (purchaseDetails.status == PurchaseStatus.purchased ||
           purchaseDetails.status == PurchaseStatus.restored) {
         debugPrint('  Purchase successful or restored!');
-        // 援щℓ ?깃났 - 愿묎퀬 ?쒓굅 泥섎━
+        // 구매 성공 처리
         if (purchaseDetails.productID == removeAdsProductId) {
-          await AdService.instance.removeAds();
           onPurchaseSuccess?.call();
-          debugPrint('  Ads removed successfully');
+          debugPrint('  Purchase completed successfully');
         }
       } else if (purchaseDetails.status == PurchaseStatus.canceled) {
         debugPrint('  Purchase canceled by user');

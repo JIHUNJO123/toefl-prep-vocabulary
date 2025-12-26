@@ -23,7 +23,11 @@ void main() async {
   }
 
   await TranslationService.instance.init();
-  await AdService.instance.initialize();
+  
+  // 광고 서비스 초기화 (잠금 해제 상태 로드 + 보상형 광고 로드)
+  await AdService.instance.loadUnlockStatus();
+  AdService.instance.loadRewardedAd();
+  
   await PurchaseService.instance.initialize();
 
   runApp(

@@ -72,7 +72,8 @@ class AppLocalizationsId extends AppLocalizations {
   String get dailyReminder => 'Pengingat Harian';
 
   @override
-  String get dailyReminderDesc => 'Dapatkan pengingat untuk belajar setiap hari';
+  String get dailyReminderDesc =>
+      'Dapatkan pengingat untuk belajar setiap hari';
 
   @override
   String get removeAds => 'Hapus Iklan';
@@ -111,7 +112,8 @@ class AppLocalizationsId extends AppLocalizations {
   String get disclaimer => 'Penafian';
 
   @override
-  String get disclaimerText => 'Aplikasi ini adalah alat persiapan TOEFL independen dan tidak berafiliasi dengan, didukung oleh, atau disetujui oleh ETS (Educational Testing Service).';
+  String get disclaimerText =>
+      'Aplikasi ini adalah alat persiapan TOEFL independen dan tidak berafiliasi dengan, didukung oleh, atau disetujui oleh ETS (Educational Testing Service).';
 
   @override
   String get privacyPolicy => 'Kebijakan Privasi';
@@ -221,10 +223,12 @@ class AppLocalizationsId extends AppLocalizations {
   String get keepPracticing => 'Teruslah berlatih! Kamu akan meningkat!';
 
   @override
-  String get privacyPolicyContent => 'Aplikasi ini tidak mengumpulkan, menyimpan, atau membagikan informasi pribadi apa pun.\n\nKemajuan belajar dan favorit Anda hanya disimpan di perangkat Anda.\n\nTidak ada data yang dikirimkan ke server eksternal.';
+  String get privacyPolicyContent =>
+      'Aplikasi ini tidak mengumpulkan, menyimpan, atau membagikan informasi pribadi apa pun.\n\nKemajuan belajar dan favorit Anda hanya disimpan di perangkat Anda.\n\nTidak ada data yang dikirimkan ke server eksternal.';
 
   @override
-  String get restorePurchaseDesc => 'Jika Anda sebelumnya telah membeli penghapusan iklan di perangkat lain atau setelah menginstal ulang aplikasi, ketuk di sini untuk memulihkan pembelian Anda.';
+  String get restorePurchaseDesc =>
+      'Jika Anda sebelumnya telah membeli penghapusan iklan di perangkat lain atau setelah menginstal ulang aplikasi, ketuk di sini untuk memulihkan pembelian Anda.';
 
   @override
   String get restoreComplete => 'Pemulihan lengkap';
@@ -243,4 +247,20 @@ class AppLocalizationsId extends AppLocalizations {
 
   @override
   String get selectLevel => 'Pilih level';
+
+  @override
+  String get lockedContent => 'Locked Content';
+
+  @override
+  String get watchAdToUnlock =>
+      'Watch a short video to unlock all words until midnight!';
+
+  @override
+  String get watchAd => 'Watch Ad';
+
+  @override
+  String get adNotReady => 'Ad is not ready yet. Please try again.';
+
+  @override
+  String get unlockedUntilMidnight => 'All words unlocked until midnight!';
 }

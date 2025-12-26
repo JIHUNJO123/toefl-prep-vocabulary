@@ -111,7 +111,8 @@ class AppLocalizationsJa extends AppLocalizations {
   String get disclaimer => '免責事項';
 
   @override
-  String get disclaimerText => 'このアプリは独立した TOEFL 準備ツールであり、ETS (Educational Testing Service) と提携、推奨、承認されていません。';
+  String get disclaimerText =>
+      'このアプリは独立した TOEFL 準備ツールであり、ETS (Educational Testing Service) と提携、推奨、承認されていません。';
 
   @override
   String get privacyPolicy => 'プライバシーポリシー';
@@ -221,10 +222,12 @@ class AppLocalizationsJa extends AppLocalizations {
   String get keepPracticing => '練習を続けてください！上達しますよ！';
 
   @override
-  String get privacyPolicyContent => 'このアプリは、個人情報を収集、保存、共有することはありません。\n\n学習の進捗状況やお気に入りは、お使いのデバイスにのみ保存されます。\n\n外部サーバーにデータが送信されることはありません。';
+  String get privacyPolicyContent =>
+      'このアプリは、個人情報を収集、保存、共有することはありません。\n\n学習の進捗状況やお気に入りは、お使いのデバイスにのみ保存されます。\n\n外部サーバーにデータが送信されることはありません。';
 
   @override
-  String get restorePurchaseDesc => '以前に別のデバイスで、またはアプリを再インストールした後に広告削除を購入した場合は、ここをタップして購入を復元してください。';
+  String get restorePurchaseDesc =>
+      '以前に別のデバイスで、またはアプリを再インストールした後に広告削除を購入した場合は、ここをタップして購入を復元してください。';
 
   @override
   String get restoreComplete => '復元完了';
@@ -243,4 +246,20 @@ class AppLocalizationsJa extends AppLocalizations {
 
   @override
   String get selectLevel => 'レベルを選択';
+
+  @override
+  String get lockedContent => 'Locked Content';
+
+  @override
+  String get watchAdToUnlock =>
+      'Watch a short video to unlock all words until midnight!';
+
+  @override
+  String get watchAd => 'Watch Ad';
+
+  @override
+  String get adNotReady => 'Ad is not ready yet. Please try again.';
+
+  @override
+  String get unlockedUntilMidnight => 'All words unlocked until midnight!';
 }
