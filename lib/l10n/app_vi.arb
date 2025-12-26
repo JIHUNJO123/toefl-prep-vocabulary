@@ -84,5 +84,10 @@
         "type": "String"
       }
     }
-  }
+  },
+  "lockedContent": "Nội dung bị khóa",
+  "watchAdToUnlock": "Xem video ngắn để mở khóa tất cả từ vựng đến nửa đêm!",
+  "watchAd": "Xem quảng cáo",
+  "adNotReady": "Quảng cáo chưa sẵn sàng. Vui lòng thử lại.",
+  "unlockedUntilMidnight": "Tất cả từ vựng đã được mở khóa đến nửa đêm!"
 }

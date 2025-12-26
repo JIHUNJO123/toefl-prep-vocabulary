@@ -84,5 +84,10 @@
         "type": "String"
       }
     }
-  }
+  },
+  "lockedContent": "Conteúdo bloqueado",
+  "watchAdToUnlock": "Assista a um vídeo curto para desbloquear todas as palavras até a meia-noite!",
+  "watchAd": "Ver anúncio",
+  "adNotReady": "O anúncio ainda não está pronto. Por favor, tente novamente.",
+  "unlockedUntilMidnight": "Todas as palavras desbloqueadas até a meia-noite!"
 }

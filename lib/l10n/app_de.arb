@@ -84,5 +84,10 @@
         "type": "String"
       }
     }
-  }
+  },
+  "lockedContent": "Gesperrter Inhalt",
+  "watchAdToUnlock": "Schau ein kurzes Video, um alle Wörter bis Mitternacht freizuschalten!",
+  "watchAd": "Werbung ansehen",
+  "adNotReady": "Werbung ist noch nicht bereit. Bitte versuche es erneut.",
+  "unlockedUntilMidnight": "Alle Wörter bis Mitternacht freigeschaltet!"
 }
