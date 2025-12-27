@@ -195,10 +195,10 @@ class _FavoritesFlashcardScreenState extends State<FavoritesFlashcardScreen> {
                                       color: Colors.white.withAlpha(
                                         (0.2 * 255).toInt(),
                                       ),
-                                      borderRadius: BorderRadius.circular(20),
+                                      borderRadius: BorderRadius.circular(12),
                                     ),
                                     child: Text(
-                                      word.partOfSpeech,
+                                      word.level,
                                       style: const TextStyle(
                                         color: Colors.white,
                                         fontWeight: FontWeight.bold,
@@ -229,25 +229,7 @@ class _FavoritesFlashcardScreenState extends State<FavoritesFlashcardScreen> {
                                 ),
                                 textAlign: TextAlign.center,
                               ),
-                              const SizedBox(height: 16),
-                              Container(
-                                padding: const EdgeInsets.symmetric(
-                                  horizontal: 12,
-                                  vertical: 6,
-                                ),
-                                decoration: BoxDecoration(
-                                  color: Colors.white.withAlpha(
-                                    (0.2 * 255).toInt(),
-                                  ),
-                                  borderRadius: BorderRadius.circular(12),
-                                ),
-                                child: Text(
-                                  word.level,
-                                  style: const TextStyle(
-                                    color: Colors.white,
-                                    fontSize: 14,
-                                  ),
-                                ),
+                              const Spacer(),
                               ),
                               const Spacer(),
                               Text(
